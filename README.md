@@ -29,7 +29,6 @@ Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis
   - [Virtual Reality](#virtual-reality)
   - [Volumetric Video Datasets](#volumetric-video-datasets) 
 - [Video Processing](#video-processing)
-  - [Video Streaming](#video-streaming)
   - [Video Analysis](#video-analysis)
   - [Video Classification](#video-classification)
   - [Saliency-aware Video Coding](#saliency-aware-video-coding)
@@ -59,9 +58,15 @@ MMSys 23, NTIRE 2023 Challenge on 360° Omnidirectional Image and Video Super-Re
 ## 2D Videos
 Back to [Table of Contents](#table-of-contents)
 ### Video Streaming
+* [Dashlet: Taming Swipe Uncertainty for Robust Short Video Streaming](https://www-users.cse.umn.edu/~fengqian/paper/salientvr_tmc23.pdf) [NSDI'23]
+* [Robust Saliency-Driven Quality Adaptation for Mobile 360-Degree Video Streaming](https://www-users.cse.umn.edu/~fengqian/paper/salientvr_tmc23.pdf) [TMC'23]
 * [Swift: Adaptive Video Streaming with Layered Neural Codecs](https://www3.cs.stonybrook.edu/~mdasari/papers/nsdi-2022-paper.pdf) [NSDI'22]
 * [SenSei: Aligning Video Streaming Quality with Dynamic User Sensitivity](https://www.usenix.org/system/files/nsdi21-zhang.pdf) [NSDI'21]
-+ [OnRL: Improving Mobile Video Telephony via Online Reinforcement Learning](https://dl.acm.org/doi/10.1145/3372224.3419186) [Mobicom 20]
++ [OnRL: Improving Mobile Video Telephony via Online Reinforcement Learning](https://www.microsoft.com/en-us/research/uploads/prod/2021/02/mobicom21-final80.pdf) [Mobicom 21]
++ [Llama: A Heterogeneous & Serverless Framework for
+Auto-Tuning Video Analytics Pipelines](https://web.stanford.edu/~faromero/llama.pdf) [SoCC 21]
++ [PECAM: Privacy-Enhanced Video Streaming and Analytics via
+Securely-Reversible Transformation](https://dl.acm.org/doi/10.1145/3372224.3419186) [Mobicom 20]
 * [Learning in situ: a randomized experiment in video streaming](https://arxiv.org/pdf/1906.01113.pdf) [NSDI'20]
 * [Grad: Learning for Overhead-aware Adaptive Video Streaming with Scalable Video Coding](http://jhc.sjtu.edu.cn/~bjiang/papers/Liu_MM2020_Grad.pdf) [MM'20]
 * [PERM: Neural Adaptive Video Streaming with Multi-path Transmission]() [INFOCOM'20]
@@ -123,7 +128,7 @@ Back to [Table of Contents](#table-of-contents)
 
 
 ### Super Resolution in Video Streaming
-
++ [Efficient Video Compression via Content-Adaptive Super-Resolution](https://arxiv.org/abs/2104.02322) [ICCV 21]
 + [Efficient Volumetric Video Streaming Through Super Resolution](https://dl.acm.org/doi/10.1145/3446382.3448663) [HotMobile 21]
 + [SplitSR: An End-to-End Approach to Super-Resolution on Mobile Devices](https://ubicomplab.cs.washington.edu/pdfs/splitsr.pdf)  [IMWUT 21]
 + [Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning](https://dl.acm.org/doi/abs/10.1145/3387514.3405856) [Sigcomm 20] [LiveNas]
@@ -165,7 +170,7 @@ Back to [Table of Contents](#table-of-contents)
 ## 360-degree Videos
 Back to [Table of Contents](#table-of-contents)
 ### 360-degree Video Streaming
-
++ [SalientVR: Saliency-Driven Mobile 360-Degree Video Streaming with Gaze Information](https://www-users.cse.umn.edu/~fengqian/paper/salientvr_mobicom22.pdf)  [Mobicom 22]
 + [Popularity-Aware 360-Degree Video Streaming](http://mcn.cse.psu.edu/paper/xianda/infocom-xianda21.pdf)  [Infocom 21]
 + [Robust 360° Video Streaming via Non-Linear Sampling](https://www.cs.purdue.edu/cgvlab/papers/popescu/2021InfoCommCOREPopescu.pdf)  [Infocom 21] 
 + [AdaP-360: User-Adaptive Area-of-Focus Projections for Bandwidth-Efficient 360-Degree Video Streaming](http://www.cs.binghamton.edu/~yaoliu/publications/mm20-adap360.pdf) [MM 20]
@@ -245,7 +250,8 @@ Back to [Table of Contents](#table-of-contents)
 ## Volumetric Videos
 Back to [Table of Contents](#table-of-contents)
 ### Volumetric Video Streaming
-
++ [YuZu: Neural-Enhanced Volumetric Video Streaming](https://www-users.cse.umn.edu/~fengqian/paper/yuzu_nsdi22.pdf)  [NSDI 22]
++ [Vues: Practical Volumetric Video Streaming through Multiview Transcoding](https://www-users.cse.umn.edu/~fengqian/paper/vues_mobicom22.pdf)  [Mobicom 22]
 + [Efficient Volumetric Video Streaming Through Super Resolution](https://dl.acm.org/doi/10.1145/3446382.3448663)  [HotMobile 21]
 + [GROOT: A Real-time Streaming System of High-Fidelity Volumetric Videos](https://juheonyi.github.io/files/GROOT.pdf)  [Mobicom 20]
 + [ViVo: Visibility-Aware Mobile Volumetric Video Streaming](https://www-users.cs.umn.edu/~fengqian/paper/vivo_mobicom20.pdf)  [Mobicom 20]
@@ -286,6 +292,14 @@ Virtual reality papers research how to render with low latency in edge/cloud arc
 ## Video Processing
 Back to [Table of Contents](#table-of-contents)
 ### Video Analysis
+* RECL: Responsive Resource-Efficient Continuous Learning for Video Analytics [NSDI 23]
+* [Minimizing packet retransmission for real-time video analytics](https://alex-q-z.github.io/files/saliency_hotmobile22.pdf) [SoCC 23]
+* [AccMPEG: Optimizing Video Encoding for Accurate Video Analytics](https://proceedings.mlsys.org/paper/2022/file/98f13708210194c475687be6106a3b84-Paper.pdf) [MLSys 22]
+* [Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers](https://www.usenix.org/system/files/nsdi22-paper-bhardwaj.pdf) [NSDI 22]
+* [Privid: Practical, Privacy-Preserving Video Analytics Queries](https://www.usenix.org/conference/nsdi22/presentation/cangialosi) [NSDI 22]
+* [Understanding the Potential of Server-Driven Edge Video Analytics](https://dl.acm.org/doi/pdf/10.1145/3542929.3563502) [HotMobile 22]
+* [Video Analytics with Zero-streaming Cameras](https://www.usenix.org/conference/atc21/presentation/xu) [ATC 21]
+* [Enabling Edge-Cloud Video Analytics for Robotic Applications](https://www.usenix.org/system/files/nsdi22-paper-bhardwaj.pdf) [TCC 22]
 * [Enabling Edge-Cloud Video Analytics for Robotic Applications](https://www.cse.ust.hk/~ywanggf/public/files/runespoor-infocom21.pdf) [INFOCOM'21]
 * [Server-Driven Video Streaming for Deep Learning Inference](https://people.cs.uchicago.edu/~junchenj/docs/DDS-Sigcomm20.pdf) [SIGCOMM'20]
 * [Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics](http://web.cs.ucla.edu/~harryxu/papers/li-sigcomm20.pdf) [SIGCOMM'20]
