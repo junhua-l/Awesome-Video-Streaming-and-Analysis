@@ -11,32 +11,32 @@ Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis
   - [Related Resources](#related-resources)
   - [Related Lectures](#related-lectures)
   - [Tutorial and Workshops](#tutorial-and-workshops)
-- [2D Videos](#2D-video)
+- [2D Videos](#2d-videos)
   - [Video Streaming](#video-streaming)
   - [Live Video Streaming](#live-video-streaming)
   - [Super Resolution in Video Streaming](#super-resolution-in-video-streaming)
   - [Video Telephony](#video-telephony)
   - [Architectural Support for Video Streaming](#architectural-support-for-video-streaming)
   - [Layered Video Coding and Streaming](#layered-video-coding-and-streaming)
-- [360 degree Videos](#360-degree-videos)
-  - [360 degree Video Streaming](#360-degree-video-streaming)
-  - [Live 360 degree Video Streaming](#live-360-degree-video-streaming)  
-  - [360 degree Video System](#360-degree-video-system)
+- [360-degree Videos](#360-degree-videos)
+  - [360-degree Video Streaming](#360-degree-video-streaming)
+  - [Live 360-degree Video Streaming](#live-360-degree-video-streaming)  
+  - [360-degree Video System](#360-degree-video-system)
   - [Viewport Prediction](#viewport-prediction)
-  - [360-degree Video Datasets](#360-degree-video-system-datatsets)   
+  - [360-degree Video Datasets](#360-degree-video-datasets)   
 - [Volumetric Videos](#volumetric-videos)
   - [Volumetric Video Streaming](#volumetric-video-streaming)
   - [Virtual Reality](#virtual-reality)
-  - [Volumetric Video Dataset](#volumetric-video-dataset) 
-- [Video Processing](#video-processing
-  - [Video Streaming](#360-streaming)
+  - [Volumetric Video Datasets](#volumetric-video-datasets) 
+- [Video Processing](#video-processing)
+  - [Video Streaming](#video-streaming)
   - [Video Analysis](#video-analysis)
   - [Video Classification](#video-classification)
   - [Saliency-aware Video Coding](#saliency-aware-video-coding)
-  - [Video Coding with Deep Learning](#Video Coding with Deep Learning) 
+  - [Video Coding with Deep Learning](#video-coding-with-deep-learning) 
 - [Tools](#tools)
 
-## Resource 
+## Resources
 Back to [Table of Contents](#table-of-contents)
 ### Related Resources
 Related repo: [Paper-Lit](https://github.com/VideoForage/Video-Lit), [Video-Streaming-Research-Papers](https://github.com/jinyucn/Video-Streaming-Research-Papers), [Deep image/video compression](https://github.com/jinyucn/Video-Streaming-Research-Papers), [Awesome-360-vision](https://github.com/hsientzucheng/awesome-360-vision), Awesome-Streaming](https://github.com/manuzhang/awesome-streaming), [Awesome-NeRF](https://github.com/awesome-NeRF/awesome-NeRF), [Weekly-NeRF](https://github.com/sjtuytc/LargeScaleNeRFPytorch/blob/main/docs/weekly_nerf.md), [Awesome-ARKit](https://github.com/olucurious/Awesome-ARKit), [Awesome-iot](https://github.com/phodal/awesome-iot)
@@ -180,7 +180,7 @@ Back to [Table of Contents](#table-of-contents)
 + [360ProbDASH: Improving QoE of 360 Video Streaming Using Tile-based HTTP Adaptive Streaming](https://www.icst.pku.edu.cn/NetVideo/docs/20201104112437185498.pdf) [MM 17]
 + [Adaptive 360-Degree Video Streaming using Scalable Video Coding](https://dl.acm.org/citation.cfm?id=3123414) [MM 17]
 
-### 360-degree Live Video Streaming
+### Live 360-degree Video Streaming
 
 + [SphericRTC: A System for Content-Adaptive Real-Time 360-Degree Video Communication](https://dl.acm.org/doi/10.1145/3394171.3413999)  [MM 20]
 + [An Analysis of Delay in Live 360° Video Streaming Systems](https://ece.northeastern.edu/fac-ece/dkoutsonikolas/publications/multimedia20.pdf)  [MM 20]
@@ -227,7 +227,7 @@ Back to [Table of Contents](#table-of-contents)
 + [Predicting Head Movement in Panoramic Video: A Deep Reinforcement Learning Approach](https://arxiv.org/pdf/1710.10755)  [TPAMI 15]
 
 
-### 360-degree Video Dataset
+### 360-degree Video Datasets
 
 + [A Taxonomy and Dataset for 360° Videos](https://arxiv.org/pdf/1905.03823)  [MMSys 19]
 + [360-degree Video Gaze Behaviour: A Ground-Truth Data Set and a Classification Algorithm for Eye Movements](https://dl.acm.org/doi/10.1145/3343031.3350947)  [MM 19]
@@ -239,7 +239,7 @@ Back to [Table of Contents](#table-of-contents)
 + [A Dataset for Exploring User Behaviors in VR Spherical Video Streaming](https://dl.acm.org/doi/10.1145/3083187.3083210)  [MMSys 17]
 
 
-## Volumetric Video
+## Volumetric Videos
 Back to [Table of Contents](#table-of-contents)
 ### Volumetric Video Streaming
 
@@ -273,7 +273,7 @@ Virtual reality papers research how to render with low latency in edge/cloud arc
 + [FlashBack: Immersive Virtual Reality on Mobile Devices via Rendering Memoization](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/flashback_mobisys2016.pdf) [MobiSys 16]
 
 
-### Volumetric Video Dataset
+### Volumetric Video Datasets
 
 + [A Taxonomy and Dataset for 360° Videos](https://arxiv.org/pdf/1905.03823)  [MMSys 19]
 + [360-degree Video Gaze Behaviour: A Ground-Truth Data Set and a Classification Algorithm for Eye Movements](https://dl.acm.org/doi/10.1145/3343031.3350947)  [MM 19]
