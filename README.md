@@ -39,22 +39,25 @@ Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis
 ## Resources
 Back to [Table of Contents](#table-of-contents)
 ### Related Resources
-Related repo: [Paper-Lit](https://github.com/VideoForage/Video-Lit), [Video-Streaming-Research-Papers](https://github.com/jinyucn/Video-Streaming-Research-Papers), [Deep image/video compression](https://github.com/jinyucn/Video-Streaming-Research-Papers), [Awesome-360-vision](https://github.com/hsientzucheng/awesome-360-vision), Awesome-Streaming](https://github.com/manuzhang/awesome-streaming), [Awesome-NeRF](https://github.com/awesome-NeRF/awesome-NeRF), [Weekly-NeRF](https://github.com/sjtuytc/LargeScaleNeRFPytorch/blob/main/docs/weekly_nerf.md), [Awesome-ARKit](https://github.com/olucurious/Awesome-ARKit), [Awesome-iot](https://github.com/phodal/awesome-iot)
+Related repo: [Paper-Lit](https://github.com/VideoForage/Video-Lit), [Video-Streaming-Research-Papers](https://github.com/jinyucn/Video-Streaming-Research-Papers), [Deep image/video compression](https://github.com/jinyucn/Video-Streaming-Research-Papers), [Awesome-360-vision](https://github.com/hsientzucheng/awesome-360-vision), [Awesome-Streaming](https://github.com/manuzhang/awesome-streaming), [Awesome-NeRF](https://github.com/awesome-NeRF/awesome-NeRF), [Weekly-NeRF](https://github.com/sjtuytc/LargeScaleNeRFPytorch/blob/main/docs/weekly_nerf.md), [Awesome-ARKit](https://github.com/olucurious/Awesome-ARKit), [Awesome-iot](https://github.com/phodal/awesome-iot)
 
 ### Related Lectures
 [EE364a-Convex optimization a](https://web.stanford.edu/class/ee364a/courseinfo.html), [EE364b-Convex optimization b](https://see.stanford.edu/Course/EE364B), [CS349D: Cloud Computing techniques](https://web.stanford.edu/class/cs349d/), [CSC348K-visual computing system](https://cars.stanford.edu/courses/2021-2022-cs-348k), [EE267-virtual reality](https://web.stanford.edu/class/ee267/), [EE359-wireless communication](https://web.stanford.edu/class/ee359/), [EE398A-Image and Video Compression](https://web.stanford.edu/class/ee398a/index.htm), [CS244 Advanced topics in networking](https://web.stanford.edu/class/archive/cs/cs244/cs244.1156/index.html#:~:text=CS244%3A%20Advanced%20Topics%20in%20Networking%2C%20Spring%202020%201,per%20week%29%2C%20and%20discuss%20them%20in%20class.%20), [ECE 5578 Multimedia Communication](https://sites.google.com/view/ece5578-fall2022), [34702 Topics in Networks: Machine Learning for Networking and Systems](https://people.cs.uchicago.edu/~junchenj/34702-winter23/)
 
 ### Tutorial and Workshops
 MM 22: Advances In Quality Assessment Of Video Streaming Systems: Algorithms, Methods, Tools; Short Video Streaming Challenge
+
 MM 21: Deep Learning for Visual Data Compression
-MMSys 23 
-NTIRE 2023 Challenge on 360° Omnidirectional Image and Video Super-Resolution
-[OmniCV2022](https://sites.google.com/view/omnicv2022), [GAZE2022](https://gazeworkshop.github.io/2022/)
-19 MM Grand Challenge:
+
+MMSys 23, NTIRE 2023 Challenge on 360° Omnidirectional Image and Video Super-Resolution
+
+[OmniCV2022](https://sites.google.com/view/omnicv2022), [GAZE2022](https://gazeworkshop.github.io/2022/), 19 MM Grand Challenge:
+
+
 
 *Some articles may be repeated.*
 ## 2D Videos
-
+Back to [Table of Contents](#table-of-contents)
 ### Video Streaming
 * [Swift: Adaptive Video Streaming with Layered Neural Codecs](https://www3.cs.stonybrook.edu/~mdasari/papers/nsdi-2022-paper.pdf) [NSDI'22]
 * [SenSei: Aligning Video Streaming Quality with Dynamic User Sensitivity](https://www.usenix.org/system/files/nsdi21-zhang.pdf) [NSDI'21]
