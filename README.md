@@ -1,9 +1,8 @@
 # Awesome Video Streaming
 Awesome-Video-Streaming is a curated list of awesome streaming frameworks, applications, and systems. With the rise of the metaverse, there has been an increase in related projects and technologies. Many existing repos haven't been updated for a while. This repository aims to provide a more up-to-date and thorough collection of resources for those interested in video streaming and video analysis (processing).
 
-Published Scope: 
-Streaming and analysis: SIGCOMM, NSDI, MobiCom, MobiSys, INFOCOM, MM, VR, CoNEXT, WWW, MMSys, OSDI, NOSSDAV
-
+Published Scope: \
+Streaming and analysis: SIGCOMM, NSDI, MobiCom, MobiSys, INFOCOM, MM, VR, CoNEXT, WWW, MMSys, OSDI, NOSSDAV \
 Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis
 
 ## Table of Contents
@@ -60,18 +59,27 @@ Back to [Table of Contents](#table-of-contents)
 ### Video Streaming
 * [Dashlet: Taming Swipe Uncertainty for Robust Short Video Streaming](https://www-users.cse.umn.edu/~fengqian/paper/salientvr_tmc23.pdf) [NSDI'23]
 * [Robust Saliency-Driven Quality Adaptation for Mobile 360-Degree Video Streaming](https://www-users.cse.umn.edu/~fengqian/paper/salientvr_tmc23.pdf) [TMC'23]
+* [Buffer Awareness Neural Adaptive Video Streaming for Avoiding Extra Buffer Consumption](https://godka.github.io/#) [INFOCOM 23]
+* SJA: Server-driven Joint Adaptation of Loss and Bitrate for Multi-Party Realtime Video Streaming [INFOCOM 23]
+* Collaborative Streaming and Super Resolution Adaptation for Mobile Immersive Videos [INFOCOM 23]
+* EAVS: Edge-assisted Adaptive Video Streaming with Fine-grained Serverless Pipelines [INFOCOM 23]
 * [Swift: Adaptive Video Streaming with Layered Neural Codecs](https://www3.cs.stonybrook.edu/~mdasari/papers/nsdi-2022-paper.pdf) [NSDI'22]
+* [Zwei: A Self-play Reinforcement Learning Framework for Video Transmission Services](https://ieeexplore.ieee.org/document/9371417) [TMM 22]
+* [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/document/9796948) [INFOCOM 22]
 * [SenSei: Aligning Video Streaming Quality with Dynamic User Sensitivity](https://www.usenix.org/system/files/nsdi21-zhang.pdf) [NSDI'21]
 + [OnRL: Improving Mobile Video Telephony via Online Reinforcement Learning](https://www.microsoft.com/en-us/research/uploads/prod/2021/02/mobicom21-final80.pdf) [Mobicom 21]
 + [Llama: A Heterogeneous & Serverless Framework for
 Auto-Tuning Video Analytics Pipelines](https://web.stanford.edu/~faromero/llama.pdf) [SoCC 21]
+* [Deep Reinforced Bitrate Ladders for Adaptive Video Streaming](https://godka.github.io/nossdav2021-final42.pdf) [NOSSDAV 21]
 + [PECAM: Privacy-Enhanced Video Streaming and Analytics via
 Securely-Reversible Transformation](https://dl.acm.org/doi/10.1145/3372224.3419186) [Mobicom 20]
 * [Learning in situ: a randomized experiment in video streaming](https://arxiv.org/pdf/1906.01113.pdf) [NSDI'20]
 * [Grad: Learning for Overhead-aware Adaptive Video Streaming with Scalable Video Coding](http://jhc.sjtu.edu.cn/~bjiang/papers/Liu_MM2020_Grad.pdf) [MM'20]
 * [PERM: Neural Adaptive Video Streaming with Multi-path Transmission]() [INFOCOM'20]
+* [Self-play Reinforcement Learning for Video Transmission](https://godka.github.io/nossdav20.pdf) [NOSSDAV 20]
 * [End-to-End Transport for Video QoE Fairness](http://web.cs.ucla.edu/~ravi/CS219_F19/papers/minerva.pdf) [SIGCOMM'19]
 * [PiTree: Practical Implementation of ABR Algorithms Using Decision Trees]() [MM'19] [[Code](https://github.com/transys-project/pitree/)] [[Dataset](https://github.com/transys-project/pitree-dataset/)]
+* [Comyco: Quality-aware Adaptive Video Streaming via Imitation Learning](https://arxiv.org/pdf/1908.02270.pdf) [MM'19] 
 * [Requet: Real-Time QoE Detection for Encrypted YouTube Traffic](https://wimnet.ee.columbia.edu/wp-content/uploads/2019/02/MMsys19_Requet.pdf) [MMSys'19][[Data](https://github.com/Wimnet/RequetDataSet)]
 * [Oboe: Auto-tuning Video ABR Algorithms to Network Conditions](https://engineering.purdue.edu/~isl/papers/sigcomm18-final128.pdf) [SIGCOMM'18]
 * [Neural Adaptive Content-aware Internet Video Delivery](https://www.usenix.org/system/files/osdi18-yeo.pdf) [OSDI'18]
@@ -111,7 +119,8 @@ Securely-Reversible Transformation](https://dl.acm.org/doi/10.1145/3372224.34191
 
 
 ### Live Video Streaming
-
++ [Who is the Rising Star? Demystifying the Promising Streamers in Crowdsourced Live Streaming](https://godka.github.io/#) [Infocom 23]
++ [AggCast: Practical Cost-effective Scheduling for Large-scale Cloud-edge Crowdsourced Live Streaming](https://godka.github.io/#) [MM 22]
 + [Look Ahead at the First-mile in Livecast with Crowdsourced Highlight Prediction](https://www2.cs.sfu.ca/~jcliu/Papers/LookAhead20.pdf) [Infocom 20]
 + [Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning](https://dl.acm.org/doi/abs/10.1145/3387514.3405856) [Sigcomm 20] [LiveNas]
 + [MultiLive: Adaptive Bitrate Control for Low-delay Multi-party Interactive Live Streaming](http://www.ece.sunysb.edu/~xwang/public/paper/MultiLive.pdf) [Infocom 20]
@@ -170,6 +179,7 @@ Securely-Reversible Transformation](https://dl.acm.org/doi/10.1145/3372224.34191
 ## 360-degree Videos
 Back to [Table of Contents](#table-of-contents)
 ### 360-degree Video Streaming
+Energy-Efficient 360-Degree Video Streaming on Multicore-Based Mobile Devices [INFOCOM 23]
 + [SalientVR: Saliency-Driven Mobile 360-Degree Video Streaming with Gaze Information](https://www-users.cse.umn.edu/~fengqian/paper/salientvr_mobicom22.pdf)  [Mobicom 22]
 + [Popularity-Aware 360-Degree Video Streaming](http://mcn.cse.psu.edu/paper/xianda/infocom-xianda21.pdf)  [Infocom 21]
 + [Robust 360° Video Streaming via Non-Linear Sampling](https://www.cs.purdue.edu/cgvlab/papers/popescu/2021InfoCommCOREPopescu.pdf)  [Infocom 21] 
@@ -215,7 +225,7 @@ Back to [Table of Contents](#table-of-contents)
 + [VR/AR Immersive Communication: Caching, Edge Computing, and Transmission Trade-Offs](https://dl.acm.org/doi/pdf/10.1145/3097895.3097902)  [VR/AR Network 17]
 
 ### Viewport Prediction
-
++ [Subtitle-based Viewport Prediction for 360-degree Virtual Tourism Video](https://ieeexplore.ieee.org/document/9904420) 
 + [Graph Learning Based Head Movement Predictionfor Interactive 360 Video Streaming](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9416230)  [TIP 21]
 + [PARIMA: Viewport Adaptive 360-Degree Video Streaming](https://arxiv.org/pdf/2103.00981) [WWW 21]
 + [LiveDeep: Online Viewport Prediction for Live Virtual Reality Streaming Using Lifelong Deep Learning](http://ieeexplore.ieee.org/document/9089486/)  [VR 20]
@@ -250,14 +260,24 @@ Back to [Table of Contents](#table-of-contents)
 ## Volumetric Videos
 Back to [Table of Contents](#table-of-contents)
 ### Volumetric Video Streaming
++ Immersive media technologies [Review 23]
++ [Volumetric video streaming: Current approaches and implementations](https://arxiv.org/abs/2209.01982) [Review 22]
 + [YuZu: Neural-Enhanced Volumetric Video Streaming](https://www-users.cse.umn.edu/~fengqian/paper/yuzu_nsdi22.pdf)  [NSDI 22]
 + [Vues: Practical Volumetric Video Streaming through Multiview Transcoding](https://www-users.cse.umn.edu/~fengqian/paper/vues_mobicom22.pdf)  [Mobicom 22]
++ [Optimal Volumetric Video Streaming with Hybrid Saliency based Tiling](https://ieeexplore.ieee.org/document/9720162)  [TMM 22]
++ [Dynamic Point Cloud Compression with Cross-Sectional Approach](https://arxiv.org/abs/2204.11409)  [Arxiv 22]
++ [A QoE Model in Point Cloud Video Streaming](https://arxiv.org/abs/2111.02985)  [Arxiv 22]
++ [FRAS: Federated Reinforcement Learning empowered Adaptive Point Cloud Video Streaming](https://arxiv.org/abs/2207.07394)  [Arxiv 22]
++ [From Capturing to Rendering: Volumetric Media Delivery with Six Degrees of Freedom](https://ieeexplore.ieee.org/document/9247522)  [Review 22]
++ [Innovating Multi-user Volumetric Video Streaming through Cross-layer Design](https://dl.acm.org/doi/pdf/10.1145/3484266.3487396)  [HotNets 21]
 + [Efficient Volumetric Video Streaming Through Super Resolution](https://dl.acm.org/doi/10.1145/3446382.3448663)  [HotMobile 21]
++ [Point Cloud Video Streaming: Challenges and Solutions](https://ieeexplore.ieee.org/abstract/document/9537928)  [IEEE Network 21]
 + [GROOT: A Real-time Streaming System of High-Fidelity Volumetric Videos](https://juheonyi.github.io/files/GROOT.pdf)  [Mobicom 20]
 + [ViVo: Visibility-Aware Mobile Volumetric Video Streaming](https://www-users.cs.umn.edu/~fengqian/paper/vivo_mobicom20.pdf)  [Mobicom 20]
 + [Towards Viewport-dependent 6DoF 360 Video Tiled Streaming for Virtual Reality Systems](https://dl.acm.org/doi/10.1145/3394171.3413712)  [MM 20]
 + [User Centered Adaptive Streaming of Dynamic Point Clouds with Low Complexity Tiling](https://ir.cwi.nl/pub/30378/30378.pdf)  [MM 20]
 + [Towards Viewport-dependent 6DoF 360 Video Tiled Streaming for Virtual Reality Systems](https://dl.acm.org/doi/pdf/10.1145/3394171.3413712)  [MM 20]
++ [VVSec: Securing Volumetric Video Streaming via Benign Use of Adversarial Perturbation](https://dl.acm.org/doi/pdf/10.1145/3394171.3413639)  [MM 20]
 + [A Pipeline for Multiparty Volumetric Video Conferencing: Transmission of Point Clouds over Low Latency DASH](https://repository.tudelft.nl/islandora/object/uuid:4a0178a3-971b-491a-b856-014d091f188e/datastream/OBJ/download)  [MMsys 20]
 + [Cloud Rendering-based Volumetric Video Streaming System for Mixed Reality Services](https://arxiv.org/pdf/2003.02526)  [MMsys 20]
 + [Low-latency Cloud-based Volumetric Video Streaming Using Head Motion Prediction](https://arxiv.org/pdf/2001.06466)  [NOSSDAV 20]
@@ -266,8 +286,8 @@ Back to [Table of Contents](#table-of-contents)
 + [Design, Implementation, and Evaluation of a Point Cloud Codec for Tele-Immersive Video](https://core.ac.uk/download/pdf/206494004.pdf)  [TCSVT 17]
 
 ### Virtual Reality
-
-Virtual reality papers research how to render with low latency in edge/cloud architecture. They often render small objects in mobile devices and render heavy background in the server.  
+NeRF-based Volumetric Video: \
++ [NeRFPlayer: A Streamable Dynamic Scene Representation with Decomposed Neural Radiance Fields](https://arxiv.org/abs/2210.15947)  [Arxiv 22]
 
 + [Q-VR: System-Level Design for Future Mobile Collaborative Virtual Reality](https://arxiv.org/ftp/arxiv/papers/2102/2102.13191.pdf)  [ASPLOS 21]
 
@@ -284,15 +304,16 @@ Virtual reality papers research how to render with low latency in edge/cloud arc
 
 ### Volumetric Video Datasets
 
-+ [A Taxonomy and Dataset for 360° Videos](https://arxiv.org/pdf/1905.03823)  [MMSys 19]
-+ [360-degree Video Gaze Behaviour: A Ground-Truth Data Set and a Classification Algorithm for Eye Movements](https://dl.acm.org/doi/10.1145/3343031.3350947)  [MM 19]
-+ [Gaze Prediction in Dynamic 360° Immersive Videos](http://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_Gaze_Prediction_in_CVPR_2018_paper.pdf)  [CVPR 18]
++ [JPEG Pleno Database: 8i Voxelized Full Bodiess](http://plenodb.jpeg.org/pc/8ilabs/) [2017]
++ [CWIPC-SXR: Point Cloud dynamic human dataset for Social XR](https://dl.acm.org/doi/pdf/10.1145/3458305.3478452) [MMSys 22]
 
 
 ## Video Processing
 Back to [Table of Contents](#table-of-contents)
 ### Video Analysis
 * RECL: Responsive Resource-Efficient Continuous Learning for Video Analytics [NSDI 23]
+* Boggart: Towards General-Purpose Acceleration of Retrospective Video Analytics [NSDI 23]
+* Gemel: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge [NSDI 23]
 * [Minimizing packet retransmission for real-time video analytics](https://alex-q-z.github.io/files/saliency_hotmobile22.pdf) [SoCC 23]
 * [AccMPEG: Optimizing Video Encoding for Accurate Video Analytics](https://proceedings.mlsys.org/paper/2022/file/98f13708210194c475687be6106a3b84-Paper.pdf) [MLSys 22]
 * [Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers](https://www.usenix.org/system/files/nsdi22-paper-bhardwaj.pdf) [NSDI 22]
