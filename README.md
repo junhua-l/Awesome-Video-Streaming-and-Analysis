@@ -1,9 +1,10 @@
-# Awesome Video Streaming
+# Awesome Video Streaming and analysis
 Awesome-Video-Streaming is a curated list of awesome streaming frameworks, applications, and systems. With the rise of the metaverse, there has been an increase in related projects and technologies. Many existing repos haven't been updated for a while. This repository aims to provide a more up-to-date and thorough collection of resources for those interested in video streaming and video analysis (processing).
 
 Published Scope: \
 Streaming and analysis: SIGCOMM, NSDI, MobiCom, MobiSys, INFOCOM, MM, VR, CoNEXT, WWW, MMSys, OSDI, NOSSDAV \
 Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis
+* There are several repos for video/point cloud analysis. We start from a perspective of networking.
 
 ## Table of Contents
 - [Resources](#resources)
