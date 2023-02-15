@@ -25,14 +25,18 @@ Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis
   - [360-degree Video Datasets](#360-degree-video-datasets)   
 - [Volumetric Videos](#volumetric-videos)
   - [Volumetric Video Streaming](#volumetric-video-streaming)
+  - [Six DoF Viewport Prediction](#six-dof-viewport-prediction)  
   - [Virtual Reality](#virtual-reality)
-  - [Volumetric Video Datasets](#volumetric-video-datasets) 
+  - [Volumetric Video Datasets](#volumetric-video-datasets)
+- [Quality of Experience](#quality-of-experience)  
 - [Video Processing](#video-processing)
   - [Video Analysis](#video-analysis)
-  - [Video Analysis for 3D vision](#video-analysis-for-3d-vision)  
-  - [Video Classification](#video-classification)
-  - [Saliency-aware Video Coding](#saliency-aware-video-coding)
-  - [Video Coding with Deep Learning](#video-coding-with-deep-learning) 
+  - [Video Analysis for 3D Multimedia](#video-analysis-for-3d-multimedia)  
+  - [Video Coding with Deep Learning](#video-coding-with-deep-learning)
+  - [Volumetric Video Coding and Compression](#volumetric-video-coding-and-compression)
+  - [Other Video Coding](#other-video-coding)
+  - [Multimedia 3D Processing](#multimedia-3d-processing)
+  - [Video Classification](#video-classification) 
 - [Tools](#tools)
 
 ## Resources
@@ -181,6 +185,9 @@ Securely-Reversible Transformation](https://dl.acm.org/doi/10.1145/3372224.34191
 Back to [Table of Contents](#table-of-contents)
 ### 360-degree Video Streaming
 Energy-Efficient 360-Degree Video Streaming on Multicore-Based Mobile Devices [INFOCOM 23]
++ [Sophon: Super-Resolution Enhanced 360°Video Streaming with Visual Saliency-aware Prefetch](https://dl.acm.org/doi/pdf/10.1145/3503161.3547750) [MM 22]
++ [Personalized 360-Degree Video Streaming: A Meta-Learning Approach](https://dl.acm.org/doi/pdf/10.1145/3503161.3548047) [MM 22]
++ [Improving Generalization for Neural Adaptive Video Streaming via Meta Reinforcement Learning](https://dl.acm.org/doi/pdf/10.1145/3503161.3548331) [MM 22]
 + [SalientVR: Saliency-Driven Mobile 360-Degree Video Streaming with Gaze Information](https://www-users.cse.umn.edu/~fengqian/paper/salientvr_mobicom22.pdf)  [Mobicom 22]
 + [Popularity-Aware 360-Degree Video Streaming](http://mcn.cse.psu.edu/paper/xianda/infocom-xianda21.pdf)  [Infocom 21]
 + [Robust 360° Video Streaming via Non-Linear Sampling](https://www.cs.purdue.edu/cgvlab/papers/popescu/2021InfoCommCOREPopescu.pdf)  [Infocom 21] 
@@ -226,6 +233,7 @@ Energy-Efficient 360-Degree Video Streaming on Multicore-Based Mobile Devices [I
 + [VR/AR Immersive Communication: Caching, Edge Computing, and Transmission Trade-Offs](https://dl.acm.org/doi/pdf/10.1145/3097895.3097902)  [VR/AR Network 17]
 
 ### Viewport Prediction
++ [Personalized 360-Degree Video Streaming: A Meta-Learning Approach](https://dl.acm.org/doi/pdf/10.1145/3503161.3548047) [MM 22]
 + [Subtitle-based Viewport Prediction for 360-degree Virtual Tourism Video](https://ieeexplore.ieee.org/document/9904420) 
 + [Graph Learning Based Head Movement Predictionfor Interactive 360 Video Streaming](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9416230)  [TIP 21]
 + [PARIMA: Viewport Adaptive 360-Degree Video Streaming](https://arxiv.org/pdf/2103.00981) [WWW 21]
@@ -324,6 +332,7 @@ Back to [Table of Contents](#table-of-contents)
 * Gemel: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge [NSDI 23]
 * [Minimizing packet retransmission for real-time video analytics](https://alex-q-z.github.io/files/saliency_hotmobile22.pdf) [SoCC 23]
 * [AccMPEG: Optimizing Video Encoding for Accurate Video Analytics](https://proceedings.mlsys.org/paper/2022/file/98f13708210194c475687be6106a3b84-Paper.pdf) [MLSys 22]
+* [DAO: Dynamic Adaptive Offloading for Video Analytics](https://dl.acm.org/doi/pdf/10.1145/3503161.3548249) [MM'22]
 * [Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers](https://www.usenix.org/system/files/nsdi22-paper-bhardwaj.pdf) [NSDI 22]
 * [Privid: Practical, Privacy-Preserving Video Analytics Queries](https://www.usenix.org/conference/nsdi22/presentation/cangialosi) [NSDI 22]
 * [Understanding the Potential of Server-Driven Edge Video Analytics](https://dl.acm.org/doi/pdf/10.1145/3542929.3563502) [HotMobile 22]
@@ -351,14 +360,10 @@ Back to [Table of Contents](#table-of-contents)
 * [DeepMix: Mobility-aware, Lightweight, and Hybrid 3D Object Detection for Headsets](https://arxiv.org/abs/2201.08812) [Mobisys'22]
 * [Hybrid Mobile Vision for Emerging Applications](https://www-users.cse.umn.edu/~fengqian/paper/hybrid_vision_hotmobile22.pdf) [HotMobile'22]
 
-### Video Classification
-* [YouTube-8M: A Large-Scale Video Classification
-Benchmark](https://arxiv.org/pdf/1609.08675.pdf)[arxiv'16]
-* [Beyond Short Snippets: Deep Networks for Video Classification](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Ng_Beyond_Short_Snippets_2015_CVPR_paper.pdf) [CVPR'15]
-* [Large-scale Video Classification with Convolutional Neural Networks](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42455.pdf) [CVPR'14]
-
-
 ### Video Coding with Deep Learning
+
+* Structure-Preserving Motion Estimation for Learned Video Compression [MM'22]
+* Learning-Based Video Coding with Joint Deep Compression and Enhancement [MM'22]
 * [Efficient Video Compression via Content-Adaptive Super-Resolution](https://openaccess.thecvf.com/content/ICCV2021/papers/Khani_Efficient_Video_Compression_via_Content-Adaptive_Super-Resolution_ICCV_2021_paper.pdf) [ICCV'21] [[Code](https://github.com/AdaptiveVC/SRVC)]
 * [Online-trained Upsampler for Deep Low Complexity Video Compression](https://openaccess.thecvf.com/content/ICCV2021/papers/Klopp_Online-Trained_Upsampler_for_Deep_Low_Complexity_Video_Compression_ICCV_2021_paper.pdf) [ICCV'21]
 * [ELF-VC: Efficient Learned Flexible-Rate Video Coding](https://arxiv.org/pdf/2104.14335.pdf) [arxiv'21]
@@ -368,9 +373,20 @@ Benchmark](https://arxiv.org/pdf/1609.08675.pdf)[arxiv'16]
 * [Deep Learning-Based Video Coding: A Review and A Case Study](https://arxiv.org/pdf/1904.12462.pdf) [arxiv'19]
 * [Video Compression through Image Interpolation](https://www.philkr.net/papers/2018-09-02-eccv/2018-09-02-eccv.pdf) [ECCV'18][[Code](https://github.com/chaoyuaw/pytorch-vcii)]
 
-### Saliency-aware Video Coding
+### Volumetric Video Coding and Compression
+
+### Other Video Coding
 * [Revisiting Video Saliency: A Large-scale Benchmark and a New Model](https://zpascal.net/cvpr2018/Wang_Revisiting_Video_Saliency_CVPR_2018_paper.pdf) [CVPR'18]
 * [A semiautomatic saliency model and its application to video compression](http://compression.ru/video/savam/pdf/A_semiautomatic_saliency_model_and_its_application_to_video_compression_ICCP_2017_0.pdf) [ICCP'17]
+
+### Multimedia 3D Processing
+
+### Video Classification
+* [YouTube-8M: A Large-Scale Video Classification
+Benchmark](https://arxiv.org/pdf/1609.08675.pdf)[arxiv'16]
+* [Beyond Short Snippets: Deep Networks for Video Classification](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Ng_Beyond_Short_Snippets_2015_CVPR_paper.pdf) [CVPR'15]
+* [Large-scale Video Classification with Convolutional Neural Networks](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42455.pdf) [CVPR'14]
+
 
 ## Tools
 Back to [Table of Contents](#table-of-contents)
