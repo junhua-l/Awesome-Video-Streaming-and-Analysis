@@ -1,9 +1,10 @@
-# Awesome Video Streaming and analysis
-Awesome-Video-Streaming-and-Analysis is a curated list of awesome frameworks, applications, and systems about video streaming and analysis. With the rise of the metaverse, there has been an increase in related projects and technologies. Many existing repos haven't been updated for a while. This repository aims to provide a more up-to-date and thorough collection of papers, resources, and techniques.
+# Awesome Video Streaming and Analysis
+Awesome-Video-Streaming-and-Analysis is a curated list of awesome frameworks, applications, and systems about video streaming and analysis(processing). With the rise of the metaverse, there has been an increase in related projects and technologies. Many existing repos haven't been updated for a while. This repository aims to provide a more up-to-date and thorough collection of papers, resources, and techniques.
 
 Published Scope: \
 Streaming and analysis: SIGCOMM, NSDI, MobiCom, MobiSys, INFOCOM, MM, VR, CoNEXT, WWW, MMSys, OSDI, NOSSDAV \
-Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis \
+Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis 
+
 *  This repo mainly starts from a perspective of networking. \
 There are several repos for video/point cloud in computer vision field.
 
@@ -393,10 +394,11 @@ This [repo](https://ustc-fvc.github.io/deep-compression.html) is currently the m
 * [Deep Learning-Based Video Coding: A Review and A Case Study](https://arxiv.org/pdf/1904.12462.pdf) [arxiv'19]
 * [Video Compression through Image Interpolation](https://www.philkr.net/papers/2018-09-02-eccv/2018-09-02-eccv.pdf) [ECCV'18]
 
-A list could be summaried as: 
+A list of summary of represented works:
+
 1. end to end optimized image compression(端到端VAE gg17)
 2. Hyperprior(对p(y,z|x)建模 引入了prior hyperparameter的分布 进一步压缩 gg18)
-3. Joint Autoregressive and Hierarchical Priors for Learned Image Compression(在hyperprior基础上加入了类似pixel CNN的context模型， 估计像素的u和sigma gg18cm) https://blog.csdn.net/qq_42281425/article/details/111108803
+3. Joint Autoregressive and Hierarchical Priors for Learned Image Compression(在hyperprior基础上加入了类似pixel CNN的context模型， 估计像素的u和sigma gg18cm) 
 4. Integer Network for data compression with latent variable models(整数网络 gg19I)
 5. channel wise autoregressive entropy models for learned image compression(分不同的slice model slice dependence gg20c)
 6. learned image compression with discretized gaussian mixture likehoods and attention moduels(GMM熵模型+attention cheng2020)
