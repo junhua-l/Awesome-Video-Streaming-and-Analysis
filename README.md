@@ -1,10 +1,11 @@
 # Awesome Video Streaming and analysis
-Awesome-Video-Streaming is a curated list of awesome streaming frameworks, applications, and systems. With the rise of the metaverse, there has been an increase in related projects and technologies. Many existing repos haven't been updated for a while. This repository aims to provide a more up-to-date and thorough collection of resources for those interested in video streaming and video analysis (processing).
+Awesome-Video-Streaming-and-Analysis is a curated list of awesome frameworks, applications, and systems about video streaming and analysis. With the rise of the metaverse, there has been an increase in related projects and technologies. Many existing repos haven't been updated for a while. This repository aims to provide a more up-to-date and thorough collection of papers, resources, and techniques.
 
 Published Scope: \
 Streaming and analysis: SIGCOMM, NSDI, MobiCom, MobiSys, INFOCOM, MM, VR, CoNEXT, WWW, MMSys, OSDI, NOSSDAV \
-Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis
-* There are several repos for video/point cloud analysis. We start from a perspective of networking.
+Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis \
+*  This repo mainly starts from a perspective of networking. \
+There are several repos for video/point cloud in computer vision field.
 
 ## Table of Contents
 - [Resources](#resources)
@@ -39,11 +40,13 @@ Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis
   - [Multimedia 3D Processing](#multimedia-3d-processing)
   - [Video Classification](#video-classification) 
 - [Tools](#tools)
+- [Multimedia Libraries](#multimedia-libraries)
+
 
 ## Resources
 Back to [Table of Contents](#table-of-contents)
 ### Related Resources
-Related repo: [Paper-Lit](https://github.com/VideoForage/Video-Lit), [Video-Streaming-Research-Papers](https://github.com/jinyucn/Video-Streaming-Research-Papers), [Deep image/video compression](https://github.com/jinyucn/Video-Streaming-Research-Papers), [Awesome-360-vision](https://github.com/hsientzucheng/awesome-360-vision), [Awesome-Streaming](https://github.com/manuzhang/awesome-streaming), [Awesome-NeRF](https://github.com/awesome-NeRF/awesome-NeRF), [Weekly-NeRF](https://github.com/sjtuytc/LargeScaleNeRFPytorch/blob/main/docs/weekly_nerf.md), [Awesome-ARKit](https://github.com/olucurious/Awesome-ARKit), [Awesome-iot](https://github.com/phodal/awesome-iot)
+Related repo: [Paper-Lit](https://github.com/VideoForage/Video-Lit), [Video-Streaming-Research-Papers](https://github.com/jinyucn/Video-Streaming-Research-Papers), [Deep image/video compression](https://ustc-fvc.github.io/deep-compression.html), [Awesome-360-vision](https://github.com/hsientzucheng/awesome-360-vision), [Awesome-Streaming](https://github.com/manuzhang/awesome-streaming), [Awesome-NeRF](https://github.com/awesome-NeRF/awesome-NeRF), [Weekly-NeRF](https://github.com/sjtuytc/LargeScaleNeRFPytorch/blob/main/docs/weekly_nerf.md), [Awesome-ARKit](https://github.com/olucurious/Awesome-ARKit), [Awesome-iot](https://github.com/phodal/awesome-iot), [3D Machine learning](https://github.com/timzhang642/3D-Machine-Learning), [audio-video-streaming](https://github.com/0voice/audio_video_streaming), [Awesome Point cloud Analysis](https://github.com/Yochengliu/awesome-point-cloud-analysis), [Awesome-System-for-Machine-Learning](https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning)
 
 ### Related Lectures
 [EE364a-Convex optimization a](https://web.stanford.edu/class/ee364a/courseinfo.html), [EE364b-Convex optimization b](https://see.stanford.edu/Course/EE364B), [CS349D: Cloud Computing techniques](https://web.stanford.edu/class/cs349d/), [CSC348K-visual computing system](https://cars.stanford.edu/courses/2021-2022-cs-348k), [EE267-virtual reality](https://web.stanford.edu/class/ee267/), [EE359-wireless communication](https://web.stanford.edu/class/ee359/), [EE398A-Image and Video Compression](https://web.stanford.edu/class/ee398a/index.htm), [CS244 Advanced topics in networking](https://web.stanford.edu/class/archive/cs/cs244/cs244.1156/index.html#:~:text=CS244%3A%20Advanced%20Topics%20in%20Networking%2C%20Spring%202020%201,per%20week%29%2C%20and%20discuss%20them%20in%20class.%20), [ECE 5578 Multimedia Communication](https://sites.google.com/view/ece5578-fall2022), [34702 Topics in Networks: Machine Learning for Networking and Systems](https://people.cs.uchicago.edu/~junchenj/34702-winter23/)
@@ -57,9 +60,9 @@ MMSys 23, NTIRE 2023 Challenge on 360° Omnidirectional Image and Video Super-Re
 
 [OmniCV2022](https://sites.google.com/view/omnicv2022), [GAZE2022](https://gazeworkshop.github.io/2022/), 19 MM Grand Challenge:
 
+Limited by the author's knowledge, this section awaits replenishment.
 
-
-*Some articles may be repeated.*
+* Some articles may be repeated.*
 ## 2D Videos
 Back to [Table of Contents](#table-of-contents)
 ### Video Streaming
@@ -79,20 +82,29 @@ Auto-Tuning Video Analytics Pipelines](https://web.stanford.edu/~faromero/llama.
 * [Deep Reinforced Bitrate Ladders for Adaptive Video Streaming](https://godka.github.io/nossdav2021-final42.pdf) [NOSSDAV 21]
 + [PECAM: Privacy-Enhanced Video Streaming and Analytics via
 Securely-Reversible Transformation](https://dl.acm.org/doi/10.1145/3372224.3419186) [Mobicom 20]
+* [Interpreting Deep Learning-Based Networking Systems](https://dl.acm.org/doi/10.1145/3387514.3405859) [Sigcomm 20] 
 * [Learning in situ: a randomized experiment in video streaming](https://arxiv.org/pdf/1906.01113.pdf) [NSDI'20]
 * [Grad: Learning for Overhead-aware Adaptive Video Streaming with Scalable Video Coding](http://jhc.sjtu.edu.cn/~bjiang/papers/Liu_MM2020_Grad.pdf) [MM'20]
 * [PERM: Neural Adaptive Video Streaming with Multi-path Transmission]() [INFOCOM'20]
 * [Self-play Reinforcement Learning for Video Transmission](https://godka.github.io/nossdav20.pdf) [NOSSDAV 20]
 * [End-to-End Transport for Video QoE Fairness](http://web.cs.ucla.edu/~ravi/CS219_F19/papers/minerva.pdf) [SIGCOMM'19]
++ [Jigsaw: Robust Live 4K Video Streaming](https://www.cs.utexas.edu/~jianhe/jigsaw-mobicom19.pdf) [Mobicom 19]
 * [PiTree: Practical Implementation of ABR Algorithms Using Decision Trees]() [MM'19] [[Code](https://github.com/transys-project/pitree/)] [[Dataset](https://github.com/transys-project/pitree-dataset/)]
 * [Comyco: Quality-aware Adaptive Video Streaming via Imitation Learning](https://arxiv.org/pdf/1908.02270.pdf) [MM'19] 
++ [Intelligent Edge-Assisted Crowdcast with Deep Reinforcement Learning for Personalized QoE](https://ieeexplore.ieee.org/document/8737456/) [Infocom 19]
 * [Requet: Real-Time QoE Detection for Encrypted YouTube Traffic](https://wimnet.ee.columbia.edu/wp-content/uploads/2019/02/MMsys19_Requet.pdf) [MMSys'19][[Data](https://github.com/Wimnet/RequetDataSet)]
++ [Intelligent Edge-Assisted Crowdcast with Deep Reinforcement Learning for Personalized QoE](https://ieeexplore.ieee.org/document/8737456/) [Infocom 19] [DeepCast]
++ [QFlow: A Reinforcement Learning Approach to High QoE Video Streaming over Wireless Networks](https://arxiv.org/abs/1901.00959) [Mobihoc 19]
++ [Edge Computing Assisted Adaptive Mobile Video Streaming](https://ieeexplore.ieee.org/document/8395060) [TMC 19
 * [Oboe: Auto-tuning Video ABR Algorithms to Network Conditions](https://engineering.purdue.edu/~isl/papers/sigcomm18-final128.pdf) [SIGCOMM'18]
 * [Neural Adaptive Content-aware Internet Video Delivery](https://www.usenix.org/system/files/osdi18-yeo.pdf) [OSDI'18]
 * [ABR Streaming of VBR-encoded Videos: Characterization, Challenges, and Solutions](https://www-users.cs.umn.edu/~fengqian/paper/vbr_conext18.pdf) [CoNEXT'18]
 * [Understanding Video Management Planes](https://engineering.purdue.edu/~isl/papers/imc2018.pdf) [IMC'18]
 * [From Theory to Practice: Improving Bitrate Adaptation in the DASH Reference Player](https://www.akamai.com/us/en/multimedia/documents/technical-publication/improving-bitrate-adaptation-in-the-dash-reference-player.pdf) [MMSys'18]
 * [VideoNOC: assessing video QoE for network operators using passive measurements](https://www.cc.gatech.edu/~tmangla3/papers/VideoNOC_MMSys2018.pdf) [MMSys'18]
++ [Intelligent Edge-Assisted Crowdcast with Deep Reinforcement Learning for Personalized QoE](https://ieeexplore.ieee.org/document/8737456/) [Infocom 19] [DeepCast]
++ [QFlow: A Reinforcement Learning Approach to High QoE Video Streaming over Wireless Networks](https://arxiv.org/abs/1901.00959) [Mobihoc 19]
++ [Edge Computing Assisted Adaptive Mobile Video Streaming](https://ieeexplore.ieee.org/document/8395060) [TMC 19]
 * [Disk|Crypt|Net: rethinking the stack for high-performance video streaming](https://www.cl.cam.ac.uk/~rnw24/papers/201708-sigcomm-diskcryptnet.pdf) [SIGCOMM'17]
 * [Neural Adaptive Video Streaming with Pensieve](https://people.csail.mit.edu/hongzi/content/publications/Pensieve-Sigcomm17.pdf) [SIGCOMM'17][[Code](https://github.com/hongzimao/pensieve)]
 * [Pytheas: Enabling Data-Driven QoE Optimization Using Group-Based Exploration-Exploitation](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-jiang_0.pdf) [NSDI'17]
@@ -125,8 +137,13 @@ Securely-Reversible Transformation](https://dl.acm.org/doi/10.1145/3372224.34191
 
 
 ### Live Video Streaming
-+ [Who is the Rising Star? Demystifying the Promising Streamers in Crowdsourced Live Streaming](https://godka.github.io/#) [Infocom 23]
-+ [AggCast: Practical Cost-effective Scheduling for Large-scale Cloud-edge Crowdsourced Live Streaming](https://godka.github.io/#) [MM 22]
++ [Who is the Rising Star? Demystifying the Promising Streamers in Crowdsourced Live Streaming](https://godka.github.io/#) [Infocom'23]
++ [AggCast: Practical Cost-effective Scheduling for Large-scale Cloud-edge Crowdsourced Live Streaming](https://godka.github.io/#) [MM'22]
++ [Low Latency Live Streaming Implementation in DASH and HLS]() [MM'22]
++ [Opte: Online per-title encoding for live video streaming](https://ieeexplore.ieee.org/abstract/document/9746745/) [ICASSP'22]
++ [Towards Optimal Low-Latency Live Video Streaming](https://ieeexplore.ieee.org/abstract/document/9459436) [ToN'21]
++ [ReCLive: Real-Time Classification and QoE Inference of Live Video Streaming Services](https://ieeexplore.ieee.org/abstract/document/9521288) [IWQoS'21]
++ [A Low-Latency MPTCP Scheduler for Live Video Streaming in Mobile Networks](https://ieeexplore.ieee.org/abstract/document/9440790) [TWC'21]
 + [Look Ahead at the First-mile in Livecast with Crowdsourced Highlight Prediction](https://www2.cs.sfu.ca/~jcliu/Papers/LookAhead20.pdf) [Infocom 20]
 + [Neural-Enhanced Live Streaming: Improving Live Video Ingest via Online Learning](https://dl.acm.org/doi/abs/10.1145/3387514.3405856) [Sigcomm 20] [LiveNas]
 + [MultiLive: Adaptive Bitrate Control for Low-delay Multi-party Interactive Live Streaming](http://www.ece.sunysb.edu/~xwang/public/paper/MultiLive.pdf) [Infocom 20]
@@ -143,6 +160,7 @@ Securely-Reversible Transformation](https://dl.acm.org/doi/10.1145/3372224.34191
 
 
 ### Super Resolution in Video Streaming
++ [YuZu: Neural-Enhanced Volumetric Video Streaming](https://www-users.cse.umn.edu/~fengqian/paper/yuzu_nsdi22.pdf)  [NSDI 22]
 + [Efficient Video Compression via Content-Adaptive Super-Resolution](https://arxiv.org/abs/2104.02322) [ICCV 21]
 + [Efficient Volumetric Video Streaming Through Super Resolution](https://dl.acm.org/doi/10.1145/3446382.3448663) [HotMobile 21]
 + [SplitSR: An End-to-End Approach to Super-Resolution on Mobile Devices](https://ubicomplab.cs.washington.edu/pdfs/splitsr.pdf)  [IMWUT 21]
@@ -297,6 +315,7 @@ Back to [Table of Contents](#table-of-contents)
 
 ### Virtual Reality
 Several mediums for volumetric video including: point cloud, mesh, voxel, NeRF, light fields, radiance fields.....
+Virtual reality papers research how to render with low latency in edge/cloud architecture. They often render small objects in mobile devices and render heavy background in the server. 
 NeRF-based Volumetric Video: \
 + [NeRFPlayer: A Streamable Dynamic Scene Representation with Decomposed Neural Radiance Fields](https://arxiv.org/abs/2210.15947)  [Arxiv 22]
 + [Streamable Neural Fields](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136800580.pdf) [ECCV 22]
@@ -323,7 +342,7 @@ Dynamic Point Cloud
 + [Sketchfab](https://sketchfab.com/) [Website]
 
 Others:
-+ [JPEG Pleno Database](http://plenodb.jpeg.org/) [Website]\
++ [JPEG Pleno Database](http://plenodb.jpeg.org/) [Website]
 
 ## Video Processing
 Back to [Table of Contents](#table-of-contents)
@@ -362,7 +381,7 @@ Back to [Table of Contents](#table-of-contents)
 * [Hybrid Mobile Vision for Emerging Applications](https://www-users.cse.umn.edu/~fengqian/paper/hybrid_vision_hotmobile22.pdf) [HotMobile'22]
 
 ### Video Coding with Deep Learning
-
+This [repo](https://ustc-fvc.github.io/deep-compression.html) is currently the most comprehensive list of papers about image/video coding with deep learning
 * Structure-Preserving Motion Estimation for Learned Video Compression [MM'22]
 * Learning-Based Video Coding with Joint Deep Compression and Enhancement [MM'22]
 * [Efficient Video Compression via Content-Adaptive Super-Resolution](https://openaccess.thecvf.com/content/ICCV2021/papers/Khani_Efficient_Video_Compression_via_Content-Adaptive_Super-Resolution_ICCV_2021_paper.pdf) [ICCV'21] [[Code](https://github.com/AdaptiveVC/SRVC)]
@@ -372,7 +391,28 @@ Back to [Table of Contents](#table-of-contents)
 * [Learned Video Compression](https://arxiv.org/pdf/1811.06981.pdf) [ICCV'19]
 * [DVC: An End-to-end Deep Video Compression Framework](https://github.com/GuoLusjtu/DVC) [CVPR'19]
 * [Deep Learning-Based Video Coding: A Review and A Case Study](https://arxiv.org/pdf/1904.12462.pdf) [arxiv'19]
-* [Video Compression through Image Interpolation](https://www.philkr.net/papers/2018-09-02-eccv/2018-09-02-eccv.pdf) [ECCV'18][[Code](https://github.com/chaoyuaw/pytorch-vcii)]
+* [Video Compression through Image Interpolation](https://www.philkr.net/papers/2018-09-02-eccv/2018-09-02-eccv.pdf) [ECCV'18]
+
+A list could be summaried as: 
+1. end to end optimized image compression(端到端VAE gg17)
+2. Hyperprior(对p(y,z|x)建模 引入了prior hyperparameter的分布 进一步压缩 gg18)
+3. Joint Autoregressive and Hierarchical Priors for Learned Image Compression(在hyperprior基础上加入了类似pixel CNN的context模型， 估计像素的u和sigma gg18cm) https://blog.csdn.net/qq_42281425/article/details/111108803
+4. Integer Network for data compression with latent variable models(整数网络 gg19I)
+5. channel wise autoregressive entropy models for learned image compression(分不同的slice model slice dependence gg20c)
+6. learned image compression with discretized gaussian mixture likehoods and attention moduels(GMM熵模型+attention cheng2020)
+7. context adaptive entropy model for end to end optimized image compression(bits consuming和bits free entropy model)
+8. Learned Variable-Rate Multi-Frequency Image Compression using Modulated Generalized Octave Convolution(lamda sigmoid调整网络的latent code的结果)
+9. Variable Rate Deep Image Compression With a Conditional Autoencoder（用lambda去调整模型参数， 条件autoencoder）
+10. YOU ONLY TRAIN ONCE: LOSS-CONDITIONAL TRAINING OF DEEP NETWORKS（conditional training）
+11. A Hybriad image codec with learned residuals(主要是local attention，octave convolution, 去压缩266的残差)
+12. Learned image compression with residual coding(BPG+网络压缩残差)
+13. End-to-End Learned ROI Image Compression(encoder + importance map)
+14. Learning Convolutional Networks for Content-weighted Image Compression(importance map + binary feature map)
+15. Conditional probability model for deep image compression
+16. generative adversarial networks for extreme learned image compression
+17. towards conceptual compression（convolutional hyperprior）
+18. Learn to inpaint for image compression(inpaint + 残差压缩)
+19. deep generative models for distribution preserving lossy compression(gan)
 
 ### Volumetric Video Coding and Compression
 
@@ -393,6 +433,18 @@ Benchmark](https://arxiv.org/pdf/1609.08675.pdf)[arxiv'16]
 Back to [Table of Contents](#table-of-contents)
 Following are the tools and libraries that are useful to build your ideas on top of.
 ## Multimedia Libraries
+* [FFMPEG](https://ffmpeg.org/): A multimedia library with a collection of diverse video codecs, filters, and video streaming capabilities.
+* [GPAC](https://github.com/gpac/gpac): A multimedia library that has decoding, rendering and displaying support. It also has support for 360 degree video delivery. It comes with MP4Box to package the video into DASH format segments and MP4Client a video player with adaptive video streaming solutions
+* [x265](https://github.com/videolan/x265): Open source implementation H.265 video codec.
+* [OBS Studio](https://obsproject.com/): Open source broadcaster software. It is useful to stream live videos on platforms such as Facebook and Periscope etc.
+* [SVT Encoders](https://github.com/OpenVisualCloud): Software (multithreaded CPU) implementation of HEVC, VP9 and AV1 encoders.
+* [Saliency-aware Video Codec](https://github.com/msu-video-group/x264_saliency_mod): X264 implementation of saliency-aware video compression.
+* [SHVC](https://hevc.hhi.fraunhofer.de/shvc): Layered coding - scalable extentions for H.265/HEVC
+* [SVC](https://avc.hhi.fraunhofer.de/svc): Layered coding - scalable extensions for H.264/AVC
+* [VVC](https://jvet.hhi.fraunhofer.de/): Reference implementation of H.266/VVC 
+
+## Multimedia Libraries
+* [NeRFstudio](https://github.com/nerfstudio-project/nerfstudio): A collaboration friendly studio for NeRFs
 * [FFMPEG](https://ffmpeg.org/): A multimedia library with a collection of diverse video codecs, filters, and video streaming capabilities.
 * [GPAC](https://github.com/gpac/gpac): A multimedia library that has decoding, rendering and displaying support. It also has support for 360 degree video delivery. It comes with MP4Box to package the video into DASH format segments and MP4Client a video player with adaptive video streaming solutions
 * [x265](https://github.com/videolan/x265): Open source implementation H.265 video codec.
