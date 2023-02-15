@@ -29,6 +29,7 @@ Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis
   - [Volumetric Video Datasets](#volumetric-video-datasets) 
 - [Video Processing](#video-processing)
   - [Video Analysis](#video-analysis)
+  - [Video Analysis for 3D vision](#video-analysis-for-3d-vision)  
   - [Video Classification](#video-classification)
   - [Saliency-aware Video Coding](#saliency-aware-video-coding)
   - [Video Coding with Deep Learning](#video-coding-with-deep-learning) 
@@ -286,9 +287,12 @@ Back to [Table of Contents](#table-of-contents)
 + [Design, Implementation, and Evaluation of a Point Cloud Codec for Tele-Immersive Video](https://core.ac.uk/download/pdf/206494004.pdf)  [TCSVT 17]
 
 ### Virtual Reality
+Several mediums for volumetric video including: point cloud, mesh, voxel, NeRF, light fields, radiance fields.....
 NeRF-based Volumetric Video: \
 + [NeRFPlayer: A Streamable Dynamic Scene Representation with Decomposed Neural Radiance Fields](https://arxiv.org/abs/2210.15947)  [Arxiv 22]
-
++ [Streamable Neural Fields](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136800580.pdf) [ECCV 22]
++ [Streaming Radiance Fields for 3D Video Synthesis](https://arxiv.org/pdf/2210.14831.pdf) [Nips 22]
+6DoF VR Video
 + [Q-VR: System-Level Design for Future Mobile Collaborative Virtual Reality](https://arxiv.org/ftp/arxiv/papers/2102/2102.13191.pdf)  [ASPLOS 21]
 
 + [Coterie: Exploiting Frame Similarity to Enable High-Quality Multiplayer VR on Commodity Mobile](https://dl.acm.org/doi/abs/10.1145/3373376.3378516) [ASPLOS 20]
@@ -303,10 +307,14 @@ NeRF-based Volumetric Video: \
 
 
 ### Volumetric Video Datasets
-
-+ [JPEG Pleno Database: 8i Voxelized Full Bodiess](http://plenodb.jpeg.org/pc/8ilabs/) [2017]
+Dynamic Point Cloud 
++ [JPEG Pleno Database: 8i Voxelized Full Bodiess](http://plenodb.jpeg.org/pc/8ilabs/) [Dataset 17]
++ [JPEG Pleno Database: Microsoft Voxelized Upper Bodies - A Voxelized Point Cloud Datasets](http://plenodb.jpeg.org/pc/8ilabs/) [Dataset]
 + [CWIPC-SXR: Point Cloud dynamic human dataset for Social XR](https://dl.acm.org/doi/pdf/10.1145/3458305.3478452) [MMSys 22]
++ [Sketchfab](https://sketchfab.com/) [Website]
 
+Others:
++ [JPEG Pleno Database](http://plenodb.jpeg.org/) [Website]\
 
 ## Video Processing
 Back to [Table of Contents](#table-of-contents)
@@ -320,16 +328,30 @@ Back to [Table of Contents](#table-of-contents)
 * [Privid: Practical, Privacy-Preserving Video Analytics Queries](https://www.usenix.org/conference/nsdi22/presentation/cangialosi) [NSDI 22]
 * [Understanding the Potential of Server-Driven Edge Video Analytics](https://dl.acm.org/doi/pdf/10.1145/3542929.3563502) [HotMobile 22]
 * [Video Analytics with Zero-streaming Cameras](https://www.usenix.org/conference/atc21/presentation/xu) [ATC 21]
+* [Elf: Accelerate High-resolution Mobile Deep Vision with Content-aware Parallel Offloading](https://www.msra.cn/wp-content/uploads/2021/03/mobicom21-elf.pdf) [ATC 21]
 * [Enabling Edge-Cloud Video Analytics for Robotic Applications](https://www.usenix.org/system/files/nsdi22-paper-bhardwaj.pdf) [TCC 22]
 * [Enabling Edge-Cloud Video Analytics for Robotic Applications](https://www.cse.ust.hk/~ywanggf/public/files/runespoor-infocom21.pdf) [INFOCOM'21]
+* [Real-Time Deep Video Analytics on Mobile Devices](https://dl.acm.org/doi/pdf/10.1145/3466772.3467037) [MobiHoc'21]
+* [Soudain: Online Adaptive Profile Configuration for Real-time Video Analytics](https://dl.acm.org/doi/pdf/10.1145/3466772.3467037) [IWQoS'21]
+* [CrossRoI: Cross-camera Region of Interest Optimization for Efficient Real Time Video Analytics at Scale](https://dl.acm.org/doi/pdf/10.1145/3458305.3463381) [MMSys'21]
+* [Vision Paper: Towards Software-Defined Video Analytics with Cross-Camera Collaboration](https://dl.acm.org/doi/pdf/10.1145/3485730.3493453) [SenSys'21]
 * [Server-Driven Video Streaming for Deep Learning Inference](https://people.cs.uchicago.edu/~junchenj/docs/DDS-Sigcomm20.pdf) [SIGCOMM'20]
+* [Distream: scaling live video analytics with workload-adaptive distributed edge intelligence](https://dl.acm.org/doi/pdf/10.1145/3384419.3430721) [Sensys'20]
 * [Reducto: On-Camera Filtering for Resource-Efficient Real-Time Video Analytics](http://web.cs.ucla.edu/~harryxu/papers/li-sigcomm20.pdf) [SIGCOMM'20]
+* [Joint Configuration Adaptation and Bandwidth Allocation for Edge-based Real-time Video Analytics](https://ieeexplore.ieee.org/document/9155524) [Infocom'20]
 * [Scaling Video Analytics on Constrained Edge Nodes](https://hyeontaek.com/papers/ff-sysml2019.pdf) [SysML'19]
 * [AWStream: adaptive wide-area streaming analytics](https://awstream.github.io/paper/awstream.pdf) [SIGCOMM'18]
 * [Chameleon: Scalable Adaptation of Video Analytics](http://people.cs.uchicago.edu/~junchenj/docs/Chameleon_SIGCOMM_CameraReady.pdf) [SIGCOMM'18]
 * [Focus: Querying Large Video Datasets with Low Latency and Low Cost](https://www.usenix.org/system/files/osdi18-hsieh.pdf) [OSDI'18]
+* [Live Video Analytics at Scale with Approximation and Delay-Tolerance](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/zhang) [NSDI'17]
+* [Glimpse: Continuous, Real-Time Object Recognition on Mobile Devices](https://dl.acm.org/doi/10.1145/2809695.2809711) [Sensys'15]
+* [The Design and Implementation of a Wireless Video Surveillance System](https://old.sigmobile.org/mobicom/2015/papers/p426-zhangA.pdf) [Mobicom'15]
 
-## Video Classification
+### Video Analysis for 3D Vision
+* [DeepMix: Mobility-aware, Lightweight, and Hybrid 3D Object Detection for Headsets](https://arxiv.org/abs/2201.08812) [Mobisys'22]
+* [Hybrid Mobile Vision for Emerging Applications](https://www-users.cse.umn.edu/~fengqian/paper/hybrid_vision_hotmobile22.pdf) [HotMobile'22]
+
+### Video Classification
 * [YouTube-8M: A Large-Scale Video Classification
 Benchmark](https://arxiv.org/pdf/1609.08675.pdf)[arxiv'16]
 * [Beyond Short Snippets: Deep Networks for Video Classification](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Ng_Beyond_Short_Snippets_2015_CVPR_paper.pdf) [CVPR'15]
