@@ -5,7 +5,7 @@ Published Scope: \
 Streaming and analysis: SIGCOMM, NSDI, MobiCom, MobiSys, INFOCOM, MM, VR, CoNEXT, WWW, MMSys, OSDI, NOSSDAV \
 Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis 
 
-[List of conference proceedings about multimedia networking](https://github.com/JunhuaLiu0/Awesome-Video-Streaming-and-Analysis/proceedings.pdf)
+[List of conference proceedings about multimedia networking](https://github.com/JunhuaLiu0/Awesome-Video-Streaming-and-Analysis/blob/main/proceedings.pdf)
 
 *  This repo mainly starts from a perspective of networking. \
 There are several repos for video/point cloud in computer vision field.
