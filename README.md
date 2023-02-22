@@ -5,6 +5,8 @@ Published Scope: \
 Streaming and analysis: SIGCOMM, NSDI, MobiCom, MobiSys, INFOCOM, MM, VR, CoNEXT, WWW, MMSys, OSDI, NOSSDAV \
 Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis 
 
+[List of conference proceedings about multimedia networking](https://github.com/JunhuaLiu0/Awesome-Video-Streaming-and-Analysis/proceedings.pdf)
+
 *  This repo mainly starts from a perspective of networking. \
 There are several repos for video/point cloud in computer vision field.
 
@@ -39,6 +41,7 @@ There are several repos for video/point cloud in computer vision field.
   - [Volumetric Video Coding and Compression](#volumetric-video-coding-and-compression)
   - [Other Video Coding](#other-video-coding)
   - [Multimedia 3D Processing](#multimedia-3d-processing)
+  - [Security and Privacy Related](#security-and-privacy-related)  
   - [Video Classification](#video-classification) 
 - [Tools](#tools)
 - [Multimedia Libraries](#multimedia-libraries)
@@ -47,7 +50,8 @@ There are several repos for video/point cloud in computer vision field.
 ## Resources
 Back to [Table of Contents](#table-of-contents)
 ### Related Resources
-Related repo: [Paper-Lit](https://github.com/VideoForage/Video-Lit), [Video-Streaming-Research-Papers](https://github.com/jinyucn/Video-Streaming-Research-Papers), [Deep image/video compression](https://ustc-fvc.github.io/deep-compression.html), [Awesome-360-vision](https://github.com/hsientzucheng/awesome-360-vision), [Awesome-Streaming](https://github.com/manuzhang/awesome-streaming), [Awesome-NeRF](https://github.com/awesome-NeRF/awesome-NeRF), [Weekly-NeRF](https://github.com/sjtuytc/LargeScaleNeRFPytorch/blob/main/docs/weekly_nerf.md), [Awesome-ARKit](https://github.com/olucurious/Awesome-ARKit), [Awesome-iot](https://github.com/phodal/awesome-iot), [3D Machine learning](https://github.com/timzhang642/3D-Machine-Learning), [audio-video-streaming](https://github.com/0voice/audio_video_streaming), [Awesome Point cloud Analysis](https://github.com/Yochengliu/awesome-point-cloud-analysis), [Awesome-System-for-Machine-Learning](https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning)
+Related repo: [Paper-Lit](https://github.com/VideoForage/Video-Lit), [Video-Streaming-Research-Papers](https://github.com/jinyucn/Video-Streaming-Research-Papers), [Deep image/video compression](https://ustc-fvc.github.io/deep-compression.html), [Awesome-360-vision](https://github.com/hsientzucheng/awesome-360-vision), [Awesome-Streaming](https://github.com/manuzhang/awesome-streaming), [Awesome-NeRF](https://github.com/awesome-NeRF/awesome-NeRF), [Weekly-NeRF](https://github.com/sjtuytc/LargeScaleNeRFPytorch/blob/main/docs/weekly_nerf.md), [Awesome-ARKit](https://github.com/olucurious/Awesome-ARKit), [Awesome-iot](https://github.com/phodal/awesome-iot), [3D Machine learning](https://github.com/timzhang642/3D-Machine-Learning), [audio-video-streaming](https://github.com/0voice/audio_video_streaming), [Awesome Point cloud Analysis](https://github.com/Yochengliu/awesome-point-cloud-analysis), [Awesome-System-for-Machine-Learning](https://github.com/HuaizhengZhang/Awesome-System-for-Machine-Learning), [Awesome-Deep-Neural-Network-Compression](https://github.com/csyhhu/Awesome-Deep-Neural-Network-Compression)
+
 
 ### Related Lectures
 [EE364a-Convex optimization a](https://web.stanford.edu/class/ee364a/courseinfo.html), [EE364b-Convex optimization b](https://see.stanford.edu/Course/EE364B), [CS349D: Cloud Computing techniques](https://web.stanford.edu/class/cs349d/), [CSC348K-visual computing system](https://cars.stanford.edu/courses/2021-2022-cs-348k), [EE267-virtual reality](https://web.stanford.edu/class/ee267/), [EE359-wireless communication](https://web.stanford.edu/class/ee359/), [EE398A-Image and Video Compression](https://web.stanford.edu/class/ee398a/index.htm), [CS244 Advanced topics in networking](https://web.stanford.edu/class/archive/cs/cs244/cs244.1156/index.html#:~:text=CS244%3A%20Advanced%20Topics%20in%20Networking%2C%20Spring%202020%201,per%20week%29%2C%20and%20discuss%20them%20in%20class.%20), [ECE 5578 Multimedia Communication](https://sites.google.com/view/ece5578-fall2022), [34702 Topics in Networks: Machine Learning for Networking and Systems](https://people.cs.uchicago.edu/~junchenj/34702-winter23/)
@@ -423,6 +427,10 @@ A list of summary of represented works:
 * [A semiautomatic saliency model and its application to video compression](http://compression.ru/video/savam/pdf/A_semiautomatic_saliency_model_and_its_application_to_video_compression_ICCP_2017_0.pdf) [ICCP'17]
 
 ### Multimedia 3D Processing
+
+### Security and Privacy Related
+
+[Unique Identification of 50,000+ Virtual Reality Users from Head & Hand Motion Data](https://arxiv.org/pdf/2302.08927.pdf) [Arxiv 23]
 
 ### Video Classification
 * [YouTube-8M: A Large-Scale Video Classification
