@@ -33,7 +33,7 @@ There are several repos for video/point cloud in computer vision field.
   - [Six DoF Viewport Prediction](#six-dof-viewport-prediction)  
   - [Virtual Reality](#virtual-reality)
   - [Volumetric Video Datasets](#volumetric-video-datasets)
-- [Quality of Experience](#quality-of-experience)  
+- [Quality of Experience](#quality-of-experience)
 - [Video Processing](#video-processing)
   - [Video Analysis](#video-analysis)
   - [Video Analysis for 3D Multimedia](#video-analysis-for-3d-multimedia)  
@@ -174,6 +174,7 @@ Securely-Reversible Transformation](https://dl.acm.org/doi/10.1145/3372224.34191
 + [Streaming 360-Degree Videos Using Super-Resolution](https://ieeexplore.ieee.org/document/9155477) [Infocom 20] [[code]](https://github.com/VideoForage/Video-Super-Resolution)
 + [SR360: Boosting 360-Degree Video Streaming with Super-Resolution](https://dl.acm.org/doi/abs/10.1145/3386290.3396929) [Nossdav 20]
 + [Improving Quality of Experience by Adaptive Video Streaming with Super-Resolution](https://ieeexplore.ieee.org/document/9155384) [Infocom 20]
++ [Streaming 360◦ Videos using Super-resolution]()  [Infocom 20]
 + [Supremo: Cloud-Assisted Low-Latency Super-Resolution in Mobile Devices](https://arxiv.org/pdf/1908.07985)  [TMC 20]
 + [MobiSR: Effcient OnDevice Super-Resolution through Heterogeneous Mobile Processors](https://arxiv.org/pdf/1908.07985)  [Mobicom 19]
 + [Dejavu: Enhancing Videoconferencing with Prior Knowledge](http://panhu.me/pdf/2019/Dejavu.pdf)  [HotMobile 19]
@@ -226,7 +227,8 @@ Energy-Efficient 360-Degree Video Streaming on Multicore-Based Mobile Devices [I
 + [Pano: Optimizing 360° Video Streaming with a Better Understanding of Quality Perception](https://people.cs.uchicago.edu/~junchenj/docs/360StreamingQuality_SIGCOMM.pdf)  [Sigcomm 19]
 + [Proactive Caching for Vehicular Multi-View 3D Video Streaming via Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/8677285)  [TWC 19]
 + [CLS: A Cross-user Learning based System for Improving QoE in 360-degree Video Adaptive Streaming](https://www.icst.pku.edu.cn/NetVideo/docs/20201104111337969645.pdf) [MM18]
-+ [Viewport-Driven Rate-Distortion Optimized 360° Video Streaming](https://ieeexplore.ieee.org/abstract/document/8422859) [ICC 18]
++ [Viewport-Driven Rate-Distortion Optimized 360° Video Streaming](https://ieeexplore.ieee.org/abstract/document/8422859) [ICC 18]\
++ [360-Degree Innovations for Panoramic Video Streaming]()  [HotNets 18]
 + [360ProbDASH: Improving QoE of 360 Video Streaming Using Tile-based HTTP Adaptive Streaming](https://www.icst.pku.edu.cn/NetVideo/docs/20201104112437185498.pdf) [MM 17]
 + [Adaptive 360-Degree Video Streaming using Scalable Video Coding](https://dl.acm.org/citation.cfm?id=3123414) [MM 17]
 
@@ -260,6 +262,8 @@ Energy-Efficient 360-Degree Video Streaming on Multicore-Based Mobile Devices [I
 + [Personalized 360-Degree Video Streaming: A Meta-Learning Approach](https://dl.acm.org/doi/pdf/10.1145/3503161.3548047) [MM 22]
 + [Subtitle-based Viewport Prediction for 360-degree Virtual Tourism Video](https://ieeexplore.ieee.org/document/9904420) 
 + [Graph Learning Based Head Movement Predictionfor Interactive 360 Video Streaming](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9416230)  [TIP 21]
++ [Motion-Prediction-based Wireless Scheduling for Multi-User Panoramic Video
+Streaming]()  [Infocom 21]
 + [PARIMA: Viewport Adaptive 360-Degree Video Streaming](https://arxiv.org/pdf/2103.00981) [WWW 21]
 + [LiveDeep: Online Viewport Prediction for Live Virtual Reality Streaming Using Lifelong Deep Learning](http://ieeexplore.ieee.org/document/9089486/)  [VR 20]
 + [Viewport Prediction for 360° Videos: A Clustering Approach](https://dl.acm.org/doi/pdf/10.1145/3386290.3396934)  [NOSSDAV 20]
@@ -315,6 +319,7 @@ Back to [Table of Contents](#table-of-contents)
 + [Cloud Rendering-based Volumetric Video Streaming System for Mixed Reality Services](https://arxiv.org/pdf/2003.02526)  [MMsys 20]
 + [Low-latency Cloud-based Volumetric Video Streaming Using Head Motion Prediction](https://arxiv.org/pdf/2001.06466)  [NOSSDAV 20]
 + [Emerging MPEG Standards for Point Cloud Compression](https://ir.cwi.nl/pub/29040/Emerging-MPEG-Standards-for-Point-Cloud-Compression.pdf)  [TCSVT 19]
++ [Toward Practical Volumetric Video Streaming on Commodity Smartphones]()  [HotMobile 19]
 + [Rate-Utility Optimized Streaming of Volumetric Media for Augmented Reality](https://arxiv.org/pdf/1804.09864) [arxiv 18]
 + [Design, Implementation, and Evaluation of a Point Cloud Codec for Tele-Immersive Video](https://core.ac.uk/download/pdf/206494004.pdf)  [TCSVT 17]
 
@@ -349,7 +354,27 @@ Dynamic Point Cloud
 Others:
 + [JPEG Pleno Database](http://plenodb.jpeg.org/) [Website]
 
-## Video Processing
+
+### Quality of Experience
++ [Adaptive Bitrate with User-level QoE Preference for Video Streaming]() [Infocom 22]
++ [VSiM: Improving QoE Fairness for Video Streaming in Mobile Environments]() [Infocom 22]
++ [360ProbDASH: Improving QoE of 360 Video Streaming Using Tile-based HTTP 
+Adaptive Streaming]() [Infocom 22]
++ [CLS: A Cross-user Learning based System for Improving QoE in 360-degree Video 
+Adaptive Streaming]() [Infocom 22]
++ [360°Mulsemedia: A Way to Improve Subjective QoE in 360° Videos]() [Infocom 22]
++ [Lumos: towards Better Video Streaming QoE through Accurate Throughput
+Prediction]() [Infocom 22]
++ [Coal Not Diamonds: How Memory Pressure Falters Mobile Video QoE]() [CoNext'22]
++ [XLINK: QoE-Driven Multi-Path QUIC Transport in Large-scale Video Services]() [SIGCOMM'21]
++ [End-to-End Transport for Video QoE Fairness]() [SIGCOMM 20]
++ [Impact of Device Performance on Mobile Internet QoE]() [IMC'18]
++ [Intelligent Edge-Assisted Crowdcast with Deep Reinforcement Learning for Personalized QoE] (Infocom 19)
++ [Rldish: Edge-Assisted QoE Optimization of HTTP Live Streaming with Reinforcement Learning]() [Infocom 20]
+
+
+
+### Video Processing
 Back to [Table of Contents](#table-of-contents)
 ### Video Analysis
 * RECL: Responsive Resource-Efficient Continuous Learning for Video Analytics [NSDI 23]
