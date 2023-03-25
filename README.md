@@ -1,9 +1,10 @@
 # Awesome Video Streaming and Analysis
-Awesome-Video-Streaming-and-Analysis is a curated list of awesome frameworks, applications, and systems about video streaming and analysis(processing). With the rise of the metaverse, there has been an increase in related projects and technologies. Many existing repos haven't been updated for a while. This repository aims to provide a more up-to-date and thorough collection of papers, resources, and techniques.
+Awesome-Video-Streaming-and-Analysis is a curated list of awesome frameworks, applications, and systems dedicated to video streaming and analysis(processing). With the emergence of the metaverse, an increasing number of related projects and technologies have emerged. However, many existing repositories have not been updated for some time, making it challenging to find current and relevant information. To address this gap, this repository provides an up-to-date and comprehensive collection of papers, resources, and techniques for video streaming and analysis.
 
 Published Scope: \
 Streaming and analysis: SIGCOMM, NSDI, MobiCom, MobiSys, INFOCOM, MM, VR, CoNEXT, WWW, MMSys, OSDI, NOSSDAV \
 Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis 
+
 
 [List of conference proceedings about multimedia networking](https://github.com/JunhuaLiu0/Awesome-Video-Streaming-and-Analysis/blob/main/proceedings.pdf)
 
@@ -74,9 +75,9 @@ Back to [Table of Contents](#table-of-contents)
 * [Dashlet: Taming Swipe Uncertainty for Robust Short Video Streaming](https://www-users.cse.umn.edu/~fengqian/paper/salientvr_tmc23.pdf) [NSDI'23]
 * [Robust Saliency-Driven Quality Adaptation for Mobile 360-Degree Video Streaming](https://www-users.cse.umn.edu/~fengqian/paper/salientvr_tmc23.pdf) [TMC'23]
 * [Buffer Awareness Neural Adaptive Video Streaming for Avoiding Extra Buffer Consumption](https://godka.github.io/#) [INFOCOM 23]
-* SJA: Server-driven Joint Adaptation of Loss and Bitrate for Multi-Party Realtime Video Streaming [INFOCOM 23]
-* Collaborative Streaming and Super Resolution Adaptation for Mobile Immersive Videos [INFOCOM 23]
-* EAVS: Edge-assisted Adaptive Video Streaming with Fine-grained Serverless Pipelines [INFOCOM 23]
+* [SJA: Server-driven Joint Adaptation of Loss and Bitrate for Multi-Party Realtime Video Streaming]() [INFOCOM 23]
+* [EAVS: Edge-assisted Adaptive Video Streaming with Fine-grained Serverless Pipelines]() [INFOCOM 23]
++ [RDladder: Resolution-Duration Ladder for VBR-encoded Videos via Imitation Learning]() [INFOCOM 23]
 * [Swift: Adaptive Video Streaming with Layered Neural Codecs](https://www3.cs.stonybrook.edu/~mdasari/papers/nsdi-2022-paper.pdf) [NSDI'22]
 * [Zwei: A Self-play Reinforcement Learning Framework for Video Transmission Services](https://ieeexplore.ieee.org/document/9371417) [TMM 22]
 * [Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction](https://ieeexplore.ieee.org/document/9796948) [INFOCOM 22]
@@ -165,6 +166,7 @@ Securely-Reversible Transformation](https://dl.acm.org/doi/10.1145/3372224.34191
 
 
 ### Super Resolution in Video Streaming
++ [Collaborative Streaming and Super Resolution Adaptation for Mobile Immersive Videos]() [INFOCOM 23]
 + [YuZu: Neural-Enhanced Volumetric Video Streaming](https://www-users.cse.umn.edu/~fengqian/paper/yuzu_nsdi22.pdf)  [NSDI 22]
 + [Efficient Video Compression via Content-Adaptive Super-Resolution](https://arxiv.org/abs/2104.02322) [ICCV 21]
 + [Efficient Volumetric Video Streaming Through Super Resolution](https://dl.acm.org/doi/10.1145/3446382.3448663) [HotMobile 21]
@@ -180,6 +182,7 @@ Securely-Reversible Transformation](https://dl.acm.org/doi/10.1145/3372224.34191
 + [Dejavu: Enhancing Videoconferencing with Prior Knowledge](http://panhu.me/pdf/2019/Dejavu.pdf)  [HotMobile 19]
 + [Bridging the Edge-Cloud Barrier for Real-time Advanced Vision Analytics](https://www.usenix.org/system/files/hotcloud19-paper-wang.pdf)  [HotCloud 19]
 + [Neural Adaptive Content-aware Internet Video Delivery](https://www.usenix.org/system/files/osdi18-yeo.pdf) [OSDI 18] [NAS] [[code]](https://github.com/kaist-ina/NAS_public)
+
 
 ### Video Telephony
 * [NEMO: Enabling Neural-enhanced Video Streaming on Commodity Mobile Devices]() [MobiCom'20]
@@ -209,7 +212,9 @@ Securely-Reversible Transformation](https://dl.acm.org/doi/10.1145/3372224.34191
 ## 360-degree Videos
 Back to [Table of Contents](#table-of-contents)
 ### 360-degree Video Streaming
-Energy-Efficient 360-Degree Video Streaming on Multicore-Based Mobile Devices [INFOCOM 23]
++ [Robust Saliency-Driven Quality Adaptation for Mobile 360-Degree Video Streaming]() [TMC 23]
++ [Energy-Efficient 360-Degree Video Streaming on Multicore-Based Mobile Devices]() [INFOCOM 23]
++ [OmniSense: Towards Edge-Assisted Online Analytics for 360-Degree Videos]() [INFOCOM 23]
 + [Sophon: Super-Resolution Enhanced 360°Video Streaming with Visual Saliency-aware Prefetch](https://dl.acm.org/doi/pdf/10.1145/3503161.3547750) [MM 22]
 + [Personalized 360-Degree Video Streaming: A Meta-Learning Approach](https://dl.acm.org/doi/pdf/10.1145/3503161.3548047) [MM 22]
 + [Improving Generalization for Neural Adaptive Video Streaming via Meta Reinforcement Learning](https://dl.acm.org/doi/pdf/10.1145/3503161.3548331) [MM 22]
@@ -356,6 +361,7 @@ Others:
 
 
 ### Quality of Experience
++ [Rebuffering but not Suffering: Exploring Continuous-Time Quantitative QoE by User's Exiting Behaviors]() [INFOCOM 23]
 + [Adaptive Bitrate with User-level QoE Preference for Video Streaming]() [Infocom 22]
 + [VSiM: Improving QoE Fairness for Video Streaming in Mobile Environments]() [Infocom 22]
 + [360ProbDASH: Improving QoE of 360 Video Streaming Using Tile-based HTTP 
@@ -381,6 +387,8 @@ Back to [Table of Contents](#table-of-contents)
 * Boggart: Towards General-Purpose Acceleration of Retrospective Video Analytics [NSDI 23]
 * Gemel: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge [NSDI 23]
 * [Minimizing packet retransmission for real-time video analytics](https://alex-q-z.github.io/files/saliency_hotmobile22.pdf) [SoCC 23]
+* [Crowd^2: Multi-agent Bandit-based Dispatch for Video Analytics upon Crowdsourcing]() [INFOCOM 23]
+* [Owl: A Pre-and Post-processing Framework for Video Analytics in Low-light Surroundings]() [INFOCOM 23]
 * [AccMPEG: Optimizing Video Encoding for Accurate Video Analytics](https://proceedings.mlsys.org/paper/2022/file/98f13708210194c475687be6106a3b84-Paper.pdf) [MLSys 22]
 * [DAO: Dynamic Adaptive Offloading for Video Analytics](https://dl.acm.org/doi/pdf/10.1145/3503161.3548249) [MM'22]
 * [Ekya: Continuous Learning of Video Analytics Models on Edge Compute Servers](https://www.usenix.org/system/files/nsdi22-paper-bhardwaj.pdf) [NSDI 22]
@@ -425,24 +433,24 @@ This [repo](https://ustc-fvc.github.io/deep-compression.html) is currently the m
 
 A list of summary of represented works:
 
-1. end to end optimized image compression(端到端VAE gg17)
-2. Hyperprior(对p(y,z|x)建模 引入了prior hyperparameter的分布 进一步压缩 gg18)
-3. Joint Autoregressive and Hierarchical Priors for Learned Image Compression(在hyperprior基础上加入了类似pixel CNN的context模型， 估计像素的u和sigma gg18cm) 
-4. Integer Network for data compression with latent variable models(整数网络 gg19I)
-5. channel wise autoregressive entropy models for learned image compression(分不同的slice model slice dependence gg20c)
-6. learned image compression with discretized gaussian mixture likehoods and attention moduels(GMM熵模型+attention cheng2020)
-7. context adaptive entropy model for end to end optimized image compression(bits consuming和bits free entropy model)
-8. Learned Variable-Rate Multi-Frequency Image Compression using Modulated Generalized Octave Convolution(lamda sigmoid调整网络的latent code的结果)
-9. Variable Rate Deep Image Compression With a Conditional Autoencoder（用lambda去调整模型参数， 条件autoencoder）
+1. end to end optimized image compression(End-to-end VAE)
+2. Hyperprior(modeling p(y,z|x), intro the distribution of prior hyperparameter)
+3. Joint Autoregressive and Hierarchical Priors for Learned Image Compression 
+4. Integer Network for data compression with latent variable models
+5. channel wise autoregressive entropy models for learned image compression(diferent slice model slice dependence gg20c)
+6. learned image compression with discretized gaussian mixture likehoods and attention moduels(GMM entropy model + attention cheng2020)
+7. context adaptive entropy model for end to end optimized image compression(bits consuming and bits free entropy model)
+8. Learned Variable-Rate Multi-Frequency Image Compression using Modulated Generalized Octave Convolution(lamda sigmoid)
+9. Variable Rate Deep Image Compression With a Conditional Autoencoder（using lambda to fine model parameters，conditional autoencoder）
 10. YOU ONLY TRAIN ONCE: LOSS-CONDITIONAL TRAINING OF DEEP NETWORKS（conditional training）
-11. A Hybriad image codec with learned residuals(主要是local attention，octave convolution, 去压缩266的残差)
-12. Learned image compression with residual coding(BPG+网络压缩残差)
+11. A Hybriad image codec with learned residuals(local attention，octave convolution, residual compression)
+12. Learned image compression with residual coding
 13. End-to-End Learned ROI Image Compression(encoder + importance map)
 14. Learning Convolutional Networks for Content-weighted Image Compression(importance map + binary feature map)
 15. Conditional probability model for deep image compression
 16. generative adversarial networks for extreme learned image compression
 17. towards conceptual compression（convolutional hyperprior）
-18. Learn to inpaint for image compression(inpaint + 残差压缩)
+18. Learn to inpaint for image compression(inpaint + residual compression)
 19. deep generative models for distribution preserving lossy compression(gan)
 
 ### Volumetric Video Coding and Compression
