@@ -58,6 +58,8 @@ Related repo: [Paper-Lit](https://github.com/VideoForage/Video-Lit), [Video-Stre
 [EE364a-Convex optimization a](https://web.stanford.edu/class/ee364a/courseinfo.html), [EE364b-Convex optimization b](https://see.stanford.edu/Course/EE364B), [CS349D: Cloud Computing techniques](https://web.stanford.edu/class/cs349d/), [CSC348K-visual computing system](https://cars.stanford.edu/courses/2021-2022-cs-348k), [EE267-virtual reality](https://web.stanford.edu/class/ee267/), [EE359-wireless communication](https://web.stanford.edu/class/ee359/), [EE398A-Image and Video Compression](https://web.stanford.edu/class/ee398a/index.htm), [CS244 Advanced topics in networking](https://web.stanford.edu/class/archive/cs/cs244/cs244.1156/index.html#:~:text=CS244%3A%20Advanced%20Topics%20in%20Networking%2C%20Spring%202020%201,per%20week%29%2C%20and%20discuss%20them%20in%20class.%20), [ECE 5578 Multimedia Communication](https://sites.google.com/view/ece5578-fall2022), [34702 Topics in Networks: Machine Learning for Networking and Systems](https://people.cs.uchicago.edu/~junchenj/34702-winter23/)
 
 ### Tutorial and Workshops
+SIGCOMM 23 [Workshop on Emerging Multimedia Systems](https://conferences.sigcomm.org/sigcomm/2023/workshop-ems.html)
+Several Special Issues in IEEE Network 23
 MM 22: Advances In Quality Assessment Of Video Streaming Systems: Algorithms, Methods, Tools; Short Video Streaming Challenge
 
 MM 21: Deep Learning for Visual Data Compression
@@ -351,9 +353,10 @@ NeRF-based Volumetric Video: \
 
 ### Volumetric Video Datasets
 Dynamic Point Cloud 
++ [FSVVD: A Dataset of Full Scene Volumetric Video]() [MMSys 23]
++ [CWIPC-SXR: Point Cloud dynamic human dataset for Social XR](https://dl.acm.org/doi/pdf/10.1145/3458305.3478452) [MMSys 22]
 + [JPEG Pleno Database: 8i Voxelized Full Bodiess](http://plenodb.jpeg.org/pc/8ilabs/) [Dataset 17]
 + [JPEG Pleno Database: Microsoft Voxelized Upper Bodies - A Voxelized Point Cloud Datasets](http://plenodb.jpeg.org/pc/8ilabs/) [Dataset]
-+ [CWIPC-SXR: Point Cloud dynamic human dataset for Social XR](https://dl.acm.org/doi/pdf/10.1145/3458305.3478452) [MMSys 22]
 + [Sketchfab](https://sketchfab.com/) [Website]
 
 Others:
