@@ -1,15 +1,16 @@
 # Awesome Video Streaming and Analysis
-Awesome-Video-Streaming-and-Analysis is a curated list of awesome frameworks, applications, and systems dedicated to video streaming and analysis(processing). With the emergence of the metaverse, an increasing number of related projects and technologies have emerged. However, many existing repositories have not been updated for some time, making it challenging to find current and relevant information. To address this gap, this repository provides an up-to-date and comprehensive collection of papers, resources, and techniques for video streaming and analysis.
+Awesome-Video-Streaming-and-Analysis is a curated list of awesome frameworks, applications, and systems dedicated to video streaming and analysis(processing). 
+
+With the emergence of the metaverse, an increasing number of related projects and technologies have emerged. However, many existing repositories have not been updated for some time, making it challenging to find current and relevant information. To address this gap, this repository provides an up-to-date and comprehensive collection of papers, resources, and techniques for video streaming and analysis.
 
 Published Scope: \
 Streaming and analysis: SIGCOMM, NSDI, MobiCom, MobiSys, INFOCOM, MM, VR, CoNEXT, WWW, MMSys, OSDI, NOSSDAV \
 Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis 
 
+I pack the [conference proceedings about multimedia networking](https://github.com/JunhuaLiu0/Awesome-Video-Streaming-and-Analysis/blob/main/proceedings.pdf) into a single pdf.
 
-[List of conference proceedings about multimedia networking](https://github.com/JunhuaLiu0/Awesome-Video-Streaming-and-Analysis/blob/main/proceedings.pdf)
+*Noting that this repo mainly starts from a perspective of networking. 
 
-*  This repo mainly starts from a perspective of networking. \
-There are several repos for video/point cloud in computer vision field.
 
 ## Table of Contents
 - [Resources](#resources)
