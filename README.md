@@ -74,6 +74,7 @@ Limited by the author's knowledge, this section awaits replenishment.
 ## 2D Videos
 Back to [Table of Contents](#table-of-contents)
 ### Video Streaming
+* [Enabling High Quality Real-Time Communications with Adaptive Frame-Rate.]() [NSDI'23]
 * [Dashlet: Taming Swipe Uncertainty for Robust Short Video Streaming](https://www-users.cse.umn.edu/~fengqian/paper/salientvr_tmc23.pdf) [NSDI'23]
 * [Robust Saliency-Driven Quality Adaptation for Mobile 360-Degree Video Streaming](https://www-users.cse.umn.edu/~fengqian/paper/salientvr_tmc23.pdf) [TMC'23]
 * [Buffer Awareness Neural Adaptive Video Streaming for Avoiding Extra Buffer Consumption](https://godka.github.io/#) [INFOCOM 23]
@@ -168,6 +169,7 @@ Securely-Reversible Transformation](https://dl.acm.org/doi/10.1145/3372224.34191
 
 
 ### Super Resolution in Video Streaming
++ [NeuriCam: Key-Frame Video Super-Resolution and Colorization for IoT Cameras]() [Mobicom 23]
 + [Collaborative Streaming and Super Resolution Adaptation for Mobile Immersive Videos]() [INFOCOM 23]
 + [YuZu: Neural-Enhanced Volumetric Video Streaming](https://www-users.cse.umn.edu/~fengqian/paper/yuzu_nsdi22.pdf)  [NSDI 22]
 + [Efficient Video Compression via Content-Adaptive Super-Resolution](https://arxiv.org/abs/2104.02322) [ICCV 21]
@@ -304,6 +306,8 @@ Streaming]()  [Infocom 21]
 ## Volumetric Videos
 Back to [Table of Contents](#table-of-contents)
 ### Volumetric Video Streaming
+* [FarfetchFusion: Towards Fully Mobile Live 3D Telepresence Platform]() [MobiCom'23]
+* [MetaStream: Live Volumetric Content Capture, Creation, Delivery, and Rendering in Real Time]() [MobiCom'23]
 + Immersive media technologies [Review 23]
 + [Volumetric video streaming: Current approaches and implementations](https://arxiv.org/abs/2209.01982) [Review 22]
 + [YuZu: Neural-Enhanced Volumetric Video Streaming](https://www-users.cse.umn.edu/~fengqian/paper/yuzu_nsdi22.pdf)  [NSDI 22]
@@ -353,7 +357,7 @@ NeRF-based Volumetric Video: \
 
 ### Volumetric Video Datasets
 Dynamic Point Cloud 
-+ [FSVVD: A Dataset of Full Scene Volumetric Video]() [MMSys 23]
++ [FSVVD: A Dataset of Full Scene Volumetric Video](https://cuhksz-inml.github.io/full_scene_volumetric_video_dataset/) [MMSys 23]
 + [CWIPC-SXR: Point Cloud dynamic human dataset for Social XR](https://dl.acm.org/doi/pdf/10.1145/3458305.3478452) [MMSys 22]
 + [JPEG Pleno Database: 8i Voxelized Full Bodiess](http://plenodb.jpeg.org/pc/8ilabs/) [Dataset 17]
 + [JPEG Pleno Database: Microsoft Voxelized Upper Bodies - A Voxelized Point Cloud Datasets](http://plenodb.jpeg.org/pc/8ilabs/) [Dataset]
@@ -422,6 +426,7 @@ Back to [Table of Contents](#table-of-contents)
 * [Hybrid Mobile Vision for Emerging Applications](https://www-users.cse.umn.edu/~fengqian/paper/hybrid_vision_hotmobile22.pdf) [HotMobile'22]
 
 ### Video Coding with Deep Learning
+This part is also known Neural video compression:
 This [repo](https://ustc-fvc.github.io/deep-compression.html) is currently the most comprehensive list of papers about image/video coding with deep learning
 * Structure-Preserving Motion Estimation for Learned Video Compression [MM'22]
 * Learning-Based Video Coding with Joint Deep Compression and Enhancement [MM'22]
@@ -434,7 +439,7 @@ This [repo](https://ustc-fvc.github.io/deep-compression.html) is currently the m
 * [Deep Learning-Based Video Coding: A Review and A Case Study](https://arxiv.org/pdf/1904.12462.pdf) [arxiv'19]
 * [Video Compression through Image Interpolation](https://www.philkr.net/papers/2018-09-02-eccv/2018-09-02-eccv.pdf) [ECCV'18]
 
-A list of summary of represented works:
+A list of summary of represented works for interested readers:
 
 1. end to end optimized image compression(End-to-end VAE)
 2. Hyperprior(modeling p(y,z|x), intro the distribution of prior hyperparameter)
@@ -463,6 +468,9 @@ A list of summary of represented works:
 * [A semiautomatic saliency model and its application to video compression](http://compression.ru/video/savam/pdf/A_semiautomatic_saliency_model_and_its_application_to_video_compression_ICCP_2017_0.pdf) [ICCP'17]
 
 ### Multimedia 3D Processing
+
+* [AccuMO: Accuracy-Centric Multitask Offloading in Edge-Assisted Mobile Augmented Reality]() [MobiCom'23]
+* [MetaStream: Live Volumetric Content Capture, Creation, Delivery, and Rendering in Real Time]() [MobiCom'23]
 
 ### Security and Privacy Related
 
