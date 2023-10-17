@@ -1,16 +1,14 @@
 # Awesome Video Streaming and Analysis
-Awesome-Video-Streaming-and-Analysis is a curated list of awesome frameworks, applications, and systems dedicated to video streaming and analysis(processing). 
+Awesome-Video-Streaming-and-Analysis is a curated list of awesome frameworks, applications, and systems dedicated to video streaming and analysis (processing). 
 
 With the emergence of the metaverse, an increasing number of related projects and technologies have emerged. However, many existing repositories have not been updated for some time, making it challenging to find current and relevant information. To address this gap, this repository provides an up-to-date and comprehensive collection of papers, resources, and techniques for video streaming and analysis.
 
 Published Scope: \
-Streaming and analysis: SIGCOMM, NSDI, MobiCom, MobiSys, INFOCOM, MM, VR, CoNEXT, WWW, MMSys, OSDI, NOSSDAV \
-Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis 
-
-I pack the [conference proceedings about multimedia networking](https://github.com/JunhuaLiu0/Awesome-Video-Streaming-and-Analysis/blob/main/proceedings.pdf) into a single pdf.
-
+Streaming and analysis: SIGCOMM, NSDI, MobiCom, MobiSys, INFOCOM, MM, VR, WWW, MMSys, OSDI, NOSSDAV \
+Video processing: CVPR, ECCV, ICCV, TCSVT, TMM, ToG, TVCG, TIP, Siggraph, Vis \
 *Noting that this repo mainly starts from a perspective of networking. 
 
+I also pack the [conference proceedings about multimedia networking](https://github.com/JunhuaLiu0/Awesome-Video-Streaming-and-Analysis/blob/main/proceedings.pdf) into a single pdf.
 
 ## Table of Contents
 - [Resources](#resources)
@@ -307,9 +305,20 @@ Streaming]()  [Infocom 21]
 ## Volumetric Videos
 Back to [Table of Contents](#table-of-contents)
 ### Volumetric Video Streaming
-* [FarfetchFusion: Towards Fully Mobile Live 3D Telepresence Platform]() [MobiCom'23]
-* [MetaStream: Live Volumetric Content Capture, Creation, Delivery, and Rendering in Real Time]() [MobiCom'23]
++ Habitus: Boosting Mobile Immersive Content Delivery through Full-body Pose Tracking and Multipath Networking [NSDI 24]
++ Progressive Frame Patching for FoV-based Point Cloud Video Streaming [Arxiv 23]
++ Enabling Low Bit-Rate MPEG V-PCC-encoded Volumetric Video Streaming with Sub-sampling [MMSys 23]
++ LiveVV: Human-Centered Live Volumetric Video Streaming System [Arxiv 23]
++ Spatial Perceptual Quality Aware Adaptive Volumetric Video Streaming [Globecom 23]
++ PatchVVC: A Real-time Compression Framework for Streaming Volumetric Videos [MMSys 23]
++ Hermes: Leveraging Implicit Inter-Frame Correlation for Bandwidth-Efficient Mobile Volumetric Video Streaming [MM 23]
++ Understanding User Behavior in Volumetric Video Watching: Dataset, Analysis and Prediction [MM 23]
++ Mobile Volumetric Video Streaming System through Implicit Neural Representation [Sigcomm EMS 23]
++ [FarfetchFusion: Towards Fully Mobile Live 3D Telepresence Platform](https://dl.acm.org/doi/abs/10.1145/3570361.3592525) [MobiCom 23]
++ [MetaStream: Live Volumetric Content Capture, Creation, Delivery, and Rendering in Real Time](https://dl.acm.org/doi/pdf/10.1145/3570361.3592530) [MobiCom 23]
 + Immersive media technologies [Review 23]
++ [CaV3: Cache-assisted Viewport Adaptive Volumetric Video Streaming](https://ieeexplore.ieee.org/document/10108421) [VR 23]
++ FRAS: Federated Reinforcement Learning empowered Adaptive Point Cloud Video Streaming [Arxiv 23]
 + [Volumetric video streaming: Current approaches and implementations](https://arxiv.org/abs/2209.01982) [Review 22]
 + [YuZu: Neural-Enhanced Volumetric Video Streaming](https://www-users.cse.umn.edu/~fengqian/paper/yuzu_nsdi22.pdf)  [NSDI 22]
 + [Vues: Practical Volumetric Video Streaming through Multiview Transcoding](https://www-users.cse.umn.edu/~fengqian/paper/vues_mobicom22.pdf)  [Mobicom 22]
@@ -321,6 +330,7 @@ Back to [Table of Contents](#table-of-contents)
 + [Innovating Multi-user Volumetric Video Streaming through Cross-layer Design](https://dl.acm.org/doi/pdf/10.1145/3484266.3487396)  [HotNets 21]
 + [Efficient Volumetric Video Streaming Through Super Resolution](https://dl.acm.org/doi/10.1145/3446382.3448663)  [HotMobile 21]
 + [Point Cloud Video Streaming: Challenges and Solutions](https://ieeexplore.ieee.org/abstract/document/9537928)  [IEEE Network 21]
++ [AITransfer: Progressive AI-powered Transmission for Real-Time Point Cloud Video Streaming] ()
 + [GROOT: A Real-time Streaming System of High-Fidelity Volumetric Videos](https://juheonyi.github.io/files/GROOT.pdf)  [Mobicom 20]
 + [ViVo: Visibility-Aware Mobile Volumetric Video Streaming](https://www-users.cs.umn.edu/~fengqian/paper/vivo_mobicom20.pdf)  [Mobicom 20]
 + [Towards Viewport-dependent 6DoF 360 Video Tiled Streaming for Virtual Reality Systems](https://dl.acm.org/doi/10.1145/3394171.3413712)  [MM 20]
@@ -336,7 +346,7 @@ Back to [Table of Contents](#table-of-contents)
 + [Design, Implementation, and Evaluation of a Point Cloud Codec for Tele-Immersive Video](https://core.ac.uk/download/pdf/206494004.pdf)  [TCSVT 17]
 
 ### Virtual Reality
-Several mediums for volumetric video including: point cloud, mesh, voxel, NeRF, light fields, radiance fields.....
+Several mediums for volumetric video including point cloud, mesh, voxel, NeRF, light fields, radiance fields.....
 Virtual reality papers research how to render with low latency in edge/cloud architecture. They often render small objects in mobile devices and render heavy background in the server. 
 NeRF-based Volumetric Video: \
 + [NeRFPlayer: A Streamable Dynamic Scene Representation with Decomposed Neural Radiance Fields](https://arxiv.org/abs/2210.15947)  [Arxiv 22]
@@ -358,6 +368,8 @@ NeRF-based Volumetric Video: \
 
 ### Volumetric Video Datasets
 Dynamic Point Cloud 
++ VOLVQAD: An MPEG V-PCC Volumetric Video Quality Assessment Dataset [MMSys 23]
++ A Dynamic Point Cloud Dataset for Immersive Applications [MMSys 23]
 + [FSVVD: A Dataset of Full Scene Volumetric Video](https://cuhksz-inml.github.io/full_scene_volumetric_video_dataset/) [MMSys 23]
 + [CWIPC-SXR: Point Cloud dynamic human dataset for Social XR](https://dl.acm.org/doi/pdf/10.1145/3458305.3478452) [MMSys 22]
 + [JPEG Pleno Database: 8i Voxelized Full Bodiess](http://plenodb.jpeg.org/pc/8ilabs/) [Dataset 17]
