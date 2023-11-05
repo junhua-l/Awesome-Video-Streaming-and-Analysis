@@ -145,6 +145,7 @@ Securely-Reversible Transformation](https://dl.acm.org/doi/10.1145/3372224.34191
 
 
 ### Live Video Streaming
++ [ARTEMIS: Adaptive bitrate ladder optimization for live video streaming](https://dspace.networks.imdea.org/bitstream/handle/20.500.12761/1760/ARTEMIS_Adaptive_Bitrate_Ladder_Optimization_for_Live_Video_Streaming_NSDI_2024_accepted_version.pdf?sequence=1&isAllowed=y) [NSDI 24]
 + [Who is the Rising Star? Demystifying the Promising Streamers in Crowdsourced Live Streaming](https://godka.github.io/#) [Infocom'23]
 + [AggCast: Practical Cost-effective Scheduling for Large-scale Cloud-edge Crowdsourced Live Streaming](https://godka.github.io/#) [MM'22]
 + [Low Latency Live Streaming Implementation in DASH and HLS]() [MM'22]
@@ -307,6 +308,9 @@ Back to [Table of Contents](#table-of-contents)
 ### Volumetric Video Streaming
 + Habitus: Boosting Mobile Immersive Content Delivery through Full-body Pose Tracking and Multipath Networking [NSDI 24]
 + Progressive Frame Patching for FoV-based Point Cloud Video Streaming [Arxiv 23]
++ [G-PCC++: Enhanced Geometry-based Point Cloud Compression](https://dl.acm.org/doi/pdf/10.1145/3581783.3613827) [MM 23]
++ [Addressing Scalability for Real-time Multiuser Holo-portation: Introducing and Assessing a Multipoint Control Unit (MCU) for Volumetric Video](https://dl.acm.org/doi/pdf/10.1145/3581783.3613777) [MM 23]
++ [Hermes: Leveraging Implicit Inter-Frame Correlation for Bandwidth-Efficient Mobile Volumetric Video Streaming](https://dl.acm.org/doi/pdf/10.1145/3581783.3613907) [MM 23]
 + Enabling Low Bit-Rate MPEG V-PCC-encoded Volumetric Video Streaming with Sub-sampling [MMSys 23]
 + LiveVV: Human-Centered Live Volumetric Video Streaming System [Arxiv 23]
 + Spatial Perceptual Quality Aware Adaptive Volumetric Video Streaming [Globecom 23]
@@ -371,6 +375,7 @@ Dynamic Point Cloud
 + VOLVQAD: An MPEG V-PCC Volumetric Video Quality Assessment Dataset [MMSys 23]
 + A Dynamic Point Cloud Dataset for Immersive Applications [MMSys 23]
 + [FSVVD: A Dataset of Full Scene Volumetric Video](https://cuhksz-inml.github.io/full_scene_volumetric_video_dataset/) [MMSys 23]
++ A 6DoF VR Dataset of 3D VirtualWorld for Privacy-Preserving Approach and Utility-Privacy Tradeoff [MMSys 23]
 + [CWIPC-SXR: Point Cloud dynamic human dataset for Social XR](https://dl.acm.org/doi/pdf/10.1145/3458305.3478452) [MMSys 22]
 + [JPEG Pleno Database: 8i Voxelized Full Bodiess](http://plenodb.jpeg.org/pc/8ilabs/) [Dataset 17]
 + [JPEG Pleno Database: Microsoft Voxelized Upper Bodies - A Voxelized Point Cloud Datasets](http://plenodb.jpeg.org/pc/8ilabs/) [Dataset]
@@ -406,6 +411,7 @@ Back to [Table of Contents](#table-of-contents)
 * RECL: Responsive Resource-Efficient Continuous Learning for Video Analytics [NSDI 23]
 * Boggart: Towards General-Purpose Acceleration of Retrospective Video Analytics [NSDI 23]
 * Gemel: Model Merging for Memory-Efficient, Real-Time Video Analytics at the Edge [NSDI 23]
+* SEPE Dataset: K Video Sequences and Images for Analysis and Development [MMSys 23]
 * [Minimizing packet retransmission for real-time video analytics](https://alex-q-z.github.io/files/saliency_hotmobile22.pdf) [SoCC 23]
 * [Crowd^2: Multi-agent Bandit-based Dispatch for Video Analytics upon Crowdsourcing]() [INFOCOM 23]
 * [Owl: A Pre-and Post-processing Framework for Video Analytics in Low-light Surroundings]() [INFOCOM 23]
